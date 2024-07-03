@@ -176,7 +176,9 @@ body {
 html {
   font-size: 12px;
 }
-
+a{
+    cursor: pointer;
+}
 h1 {
   position: relative;
   background: #444;

@@ -22,7 +22,7 @@
     "build:dev": "webpack --mode=development --config ./webpack.config.js",
     "build": "yarn run build:dev",
     "watchs": "webpack --watch --mode=development --config ./webpack.config.js",
-    "server:front": "webpack server --mode=development"
+    "server:front": "webpack server --mode=development  --config ./webpack.config.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.6",

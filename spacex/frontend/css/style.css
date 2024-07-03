@@ -370,6 +370,13 @@ header {
   justify-content: space-between;
 }
 
+/* ------ Header Logo ------ */
+.header__logo,
+.header__middle,
+.header__menu,
+.header__menu ul li{
+display: inline-block;
+}
 .header__logo{
     background: no-repeat url(/d3a1ac358fa9d1e9b573.png) center;
 }
@@ -383,6 +390,21 @@ header {
 .header__logo_img {
     width:315px;
     background: no-repeat url(/d62981eb534e1d4f47af.svg) center;
-
-
 }
+
+/* ------ Header nenu ------ */
+.header__menu{
+   width: 100%;
+   max-width: 724px;
+}
+.header__menu ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+.header__menu a{
+color: #ffffff;
+}
+

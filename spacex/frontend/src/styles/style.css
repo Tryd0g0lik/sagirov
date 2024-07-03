@@ -1,10 +1,13 @@
-
+body{
+    padding-top: 0;
+}
 
 .body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
+  padding-top: 0;
 }
 header {
   width: 100%;
@@ -16,8 +19,16 @@ header {
   flex-wrap: nowrap;
   align-content: space-around;
   justify-content: space-between;
+  padding-left: 23px;
 }
 
+/* ------ Header Logo ------ */
+.header__logo,
+.header__middle,
+.header__menu,
+.header__menu ul li{
+display: inline-block;
+}
 .header__logo{
     background: no-repeat url("../pic/background_logo.png") center;
 }
@@ -26,11 +37,63 @@ header {
 .header__logo_img{
     min-height: 100px;
     max-height: 100px;
-    }
+}
 
 .header__logo_img {
-    width:315px;
+    width:290px;
     background: no-repeat url("../pic/svg/logo.svg") center;
-
+    background-position: 8px 20px;
 
 }
+
+/* ------ Header menu ------ */
+.header__menu{
+   width: 100%;
+   max-width: 724px;
+   padding-top:41px;
+}
+.header__menu ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3%;
+}
+
+.header__menu li {
+position: relative;
+vertical-align: top;
+}
+.header__menu a{
+    display: block;
+    height: 100%;
+padding: 0 5px 11px 5px;
+    color: #ffffff;
+}
+
+
+.header__menu a:hover{
+    color: #929292;
+}
+a:hover::after {
+  content: 'Hi';
+  font-size: 0.33px;
+  display: block;
+  min-height: 1px;
+  max-height: 1px;
+  width: calc(100% + 4px);
+  border: 0;
+  /* border-bottom: 1px solid #fff; */
+  position: absolute;
+  /* bottom: 0; */
+  border: 0;
+  background-color: #3d3d3d;
+  bottom: 2px;
+  left: 9px;
+}
+
+.header__middle{
+    width: 11.2%;
+}
+
+/* ------ Header main ------ */

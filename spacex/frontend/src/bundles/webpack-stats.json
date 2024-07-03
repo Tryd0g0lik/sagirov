@@ -101,17 +101,515 @@
       "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\index.html",
       "publicPath": ".index.html"
     },
-    "main-main-ac6fa7d535c4c0223206.js": {
-      "name": "main-main-ac6fa7d535c4c0223206.js",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-ac6fa7d535c4c0223206.js",
-      "publicPath": ".main-main-ac6fa7d535c4c0223206.js"
+    "main-main-07fae4fa8bca42e17d6b.js": {
+      "name": "main-main-07fae4fa8bca42e17d6b.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-07fae4fa8bca42e17d6b.js",
+      "publicPath": ".main-main-07fae4fa8bca42e17d6b.js"
+    },
+    "main-main-09bfea99472cb4ea5214.js": {
+      "name": "main-main-09bfea99472cb4ea5214.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-09bfea99472cb4ea5214.js",
+      "publicPath": ".main-main-09bfea99472cb4ea5214.js"
+    },
+    "main-main-0f694317e5011f9ae8ce.js": {
+      "name": "main-main-0f694317e5011f9ae8ce.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-0f694317e5011f9ae8ce.js",
+      "publicPath": ".main-main-0f694317e5011f9ae8ce.js"
+    },
+    "main-main-1171594d5cf9e6704b64.js": {
+      "name": "main-main-1171594d5cf9e6704b64.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-1171594d5cf9e6704b64.js",
+      "publicPath": ".main-main-1171594d5cf9e6704b64.js"
+    },
+    "main-main-2b746175389f3f223649.js": {
+      "name": "main-main-2b746175389f3f223649.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-2b746175389f3f223649.js",
+      "publicPath": ".main-main-2b746175389f3f223649.js"
+    },
+    "main-main-33631b19e3110bddf446.js": {
+      "name": "main-main-33631b19e3110bddf446.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-33631b19e3110bddf446.js",
+      "publicPath": ".main-main-33631b19e3110bddf446.js"
+    },
+    "main-main-4a0de46d03603c43cc84.js": {
+      "name": "main-main-4a0de46d03603c43cc84.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-4a0de46d03603c43cc84.js",
+      "publicPath": ".main-main-4a0de46d03603c43cc84.js"
+    },
+    "main-main-5b8d435312630392d14e.js": {
+      "name": "main-main-5b8d435312630392d14e.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-5b8d435312630392d14e.js",
+      "publicPath": ".main-main-5b8d435312630392d14e.js"
+    },
+    "main-main-633a2f6b1761d85c82ee.js": {
+      "name": "main-main-633a2f6b1761d85c82ee.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-633a2f6b1761d85c82ee.js",
+      "publicPath": ".main-main-633a2f6b1761d85c82ee.js"
+    },
+    "main-main-6c857a61ded299a00deb.js": {
+      "name": "main-main-6c857a61ded299a00deb.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-6c857a61ded299a00deb.js",
+      "publicPath": ".main-main-6c857a61ded299a00deb.js"
+    },
+    "main-main-793b1f37557e64ee0e03.js": {
+      "name": "main-main-793b1f37557e64ee0e03.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-793b1f37557e64ee0e03.js",
+      "publicPath": ".main-main-793b1f37557e64ee0e03.js"
+    },
+    "main-main-7c63f4f246a08c499fce.js": {
+      "name": "main-main-7c63f4f246a08c499fce.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-7c63f4f246a08c499fce.js",
+      "publicPath": ".main-main-7c63f4f246a08c499fce.js"
+    },
+    "main-main-837881c7df150f7a47d2.js": {
+      "name": "main-main-837881c7df150f7a47d2.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-837881c7df150f7a47d2.js",
+      "publicPath": ".main-main-837881c7df150f7a47d2.js"
+    },
+    "main-main-8adf9d200e1dfe1095b1.js": {
+      "name": "main-main-8adf9d200e1dfe1095b1.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-8adf9d200e1dfe1095b1.js",
+      "publicPath": ".main-main-8adf9d200e1dfe1095b1.js"
+    },
+    "main-main-8f709b6a3b3a06b464b8.js": {
+      "name": "main-main-8f709b6a3b3a06b464b8.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-8f709b6a3b3a06b464b8.js",
+      "publicPath": ".main-main-8f709b6a3b3a06b464b8.js"
+    },
+    "main-main-94fa9841e2392582c4b0.js": {
+      "name": "main-main-94fa9841e2392582c4b0.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-94fa9841e2392582c4b0.js",
+      "publicPath": ".main-main-94fa9841e2392582c4b0.js"
+    },
+    "main-main-a2357b08be57c46e72f1.js": {
+      "name": "main-main-a2357b08be57c46e72f1.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-a2357b08be57c46e72f1.js",
+      "publicPath": ".main-main-a2357b08be57c46e72f1.js"
+    },
+    "main-main-ac77e0e679e61a96f0ad.js": {
+      "name": "main-main-ac77e0e679e61a96f0ad.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-ac77e0e679e61a96f0ad.js",
+      "publicPath": ".main-main-ac77e0e679e61a96f0ad.js"
+    },
+    "main-main-ae32fe2fe5bb532cbe6a.js": {
+      "name": "main-main-ae32fe2fe5bb532cbe6a.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-ae32fe2fe5bb532cbe6a.js",
+      "publicPath": ".main-main-ae32fe2fe5bb532cbe6a.js"
+    },
+    "main-main-aedcad782a652c3ba0bc.js": {
+      "name": "main-main-aedcad782a652c3ba0bc.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-aedcad782a652c3ba0bc.js",
+      "publicPath": ".main-main-aedcad782a652c3ba0bc.js"
+    },
+    "main-main-b65bd5e8845fa580b840.js": {
+      "name": "main-main-b65bd5e8845fa580b840.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-b65bd5e8845fa580b840.js",
+      "publicPath": ".main-main-b65bd5e8845fa580b840.js"
+    },
+    "main-main-ba2db1fdcbb32d8adf23.js": {
+      "name": "main-main-ba2db1fdcbb32d8adf23.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-ba2db1fdcbb32d8adf23.js",
+      "publicPath": ".main-main-ba2db1fdcbb32d8adf23.js"
+    },
+    "main-main-c9744bb762f76c382add.js": {
+      "name": "main-main-c9744bb762f76c382add.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-c9744bb762f76c382add.js",
+      "publicPath": ".main-main-c9744bb762f76c382add.js"
+    },
+    "main-main-c9846efb86e7897374b1.js": {
+      "name": "main-main-c9846efb86e7897374b1.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-c9846efb86e7897374b1.js",
+      "publicPath": ".main-main-c9846efb86e7897374b1.js"
+    },
+    "main-main-ca4d92058a08a0d4ceeb.js": {
+      "name": "main-main-ca4d92058a08a0d4ceeb.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-ca4d92058a08a0d4ceeb.js",
+      "publicPath": ".main-main-ca4d92058a08a0d4ceeb.js"
+    },
+    "main-main-cd1d48af57b498b5d62b.js": {
+      "name": "main-main-cd1d48af57b498b5d62b.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-cd1d48af57b498b5d62b.js",
+      "publicPath": ".main-main-cd1d48af57b498b5d62b.js"
+    },
+    "main-main-cd92c64341bd6e13219c.js": {
+      "name": "main-main-cd92c64341bd6e13219c.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-cd92c64341bd6e13219c.js",
+      "publicPath": ".main-main-cd92c64341bd6e13219c.js"
+    },
+    "main-main-df23e6939db1509fc046.js": {
+      "name": "main-main-df23e6939db1509fc046.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-df23e6939db1509fc046.js",
+      "publicPath": ".main-main-df23e6939db1509fc046.js"
+    },
+    "main-main-e08a8a3f070dcb825d60.js": {
+      "name": "main-main-e08a8a3f070dcb825d60.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-e08a8a3f070dcb825d60.js",
+      "publicPath": ".main-main-e08a8a3f070dcb825d60.js"
+    },
+    "main-main-e55d0a604b9aba89d981.js": {
+      "name": "main-main-e55d0a604b9aba89d981.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-e55d0a604b9aba89d981.js",
+      "publicPath": ".main-main-e55d0a604b9aba89d981.js"
+    },
+    "main-main-e59aeb022667a6a54fcc.js": {
+      "name": "main-main-e59aeb022667a6a54fcc.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-e59aeb022667a6a54fcc.js",
+      "publicPath": ".main-main-e59aeb022667a6a54fcc.js"
+    },
+    "main-main-f1d51ec446c52afaf30b.js": {
+      "name": "main-main-f1d51ec446c52afaf30b.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-f1d51ec446c52afaf30b.js",
+      "publicPath": ".main-main-f1d51ec446c52afaf30b.js"
+    },
+    "main-main-f28e1059462f1cde1116.js": {
+      "name": "main-main-f28e1059462f1cde1116.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-f28e1059462f1cde1116.js",
+      "publicPath": ".main-main-f28e1059462f1cde1116.js"
+    },
+    "main-main-f2ea76e10cb7a3391537.js": {
+      "name": "main-main-f2ea76e10cb7a3391537.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-f2ea76e10cb7a3391537.js",
+      "publicPath": ".main-main-f2ea76e10cb7a3391537.js"
+    },
+    "main.07fae4fa8bca42e17d6b.hot-update.js": {
+      "name": "main.07fae4fa8bca42e17d6b.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.07fae4fa8bca42e17d6b.hot-update.js",
+      "publicPath": ".main.07fae4fa8bca42e17d6b.hot-update.js"
+    },
+    "main.07fae4fa8bca42e17d6b.hot-update.json": {
+      "name": "main.07fae4fa8bca42e17d6b.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.07fae4fa8bca42e17d6b.hot-update.json",
+      "publicPath": ".main.07fae4fa8bca42e17d6b.hot-update.json"
+    },
+    "main.09bfea99472cb4ea5214.hot-update.js": {
+      "name": "main.09bfea99472cb4ea5214.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.09bfea99472cb4ea5214.hot-update.js",
+      "publicPath": ".main.09bfea99472cb4ea5214.hot-update.js"
+    },
+    "main.09bfea99472cb4ea5214.hot-update.json": {
+      "name": "main.09bfea99472cb4ea5214.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.09bfea99472cb4ea5214.hot-update.json",
+      "publicPath": ".main.09bfea99472cb4ea5214.hot-update.json"
+    },
+    "main.0f5e4bcf1d4331221c9e.hot-update.js": {
+      "name": "main.0f5e4bcf1d4331221c9e.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.0f5e4bcf1d4331221c9e.hot-update.js",
+      "publicPath": ".main.0f5e4bcf1d4331221c9e.hot-update.js"
+    },
+    "main.0f5e4bcf1d4331221c9e.hot-update.json": {
+      "name": "main.0f5e4bcf1d4331221c9e.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.0f5e4bcf1d4331221c9e.hot-update.json",
+      "publicPath": ".main.0f5e4bcf1d4331221c9e.hot-update.json"
+    },
+    "main.0f694317e5011f9ae8ce.hot-update.js": {
+      "name": "main.0f694317e5011f9ae8ce.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.0f694317e5011f9ae8ce.hot-update.js",
+      "publicPath": ".main.0f694317e5011f9ae8ce.hot-update.js"
+    },
+    "main.0f694317e5011f9ae8ce.hot-update.json": {
+      "name": "main.0f694317e5011f9ae8ce.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.0f694317e5011f9ae8ce.hot-update.json",
+      "publicPath": ".main.0f694317e5011f9ae8ce.hot-update.json"
+    },
+    "main.1171594d5cf9e6704b64.hot-update.js": {
+      "name": "main.1171594d5cf9e6704b64.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.1171594d5cf9e6704b64.hot-update.js",
+      "publicPath": ".main.1171594d5cf9e6704b64.hot-update.js"
+    },
+    "main.1171594d5cf9e6704b64.hot-update.json": {
+      "name": "main.1171594d5cf9e6704b64.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.1171594d5cf9e6704b64.hot-update.json",
+      "publicPath": ".main.1171594d5cf9e6704b64.hot-update.json"
+    },
+    "main.2b746175389f3f223649.hot-update.js": {
+      "name": "main.2b746175389f3f223649.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.2b746175389f3f223649.hot-update.js",
+      "publicPath": ".main.2b746175389f3f223649.hot-update.js"
+    },
+    "main.2b746175389f3f223649.hot-update.json": {
+      "name": "main.2b746175389f3f223649.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.2b746175389f3f223649.hot-update.json",
+      "publicPath": ".main.2b746175389f3f223649.hot-update.json"
+    },
+    "main.33631b19e3110bddf446.hot-update.js": {
+      "name": "main.33631b19e3110bddf446.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.33631b19e3110bddf446.hot-update.js",
+      "publicPath": ".main.33631b19e3110bddf446.hot-update.js"
+    },
+    "main.33631b19e3110bddf446.hot-update.json": {
+      "name": "main.33631b19e3110bddf446.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.33631b19e3110bddf446.hot-update.json",
+      "publicPath": ".main.33631b19e3110bddf446.hot-update.json"
+    },
+    "main.4a0de46d03603c43cc84.hot-update.js": {
+      "name": "main.4a0de46d03603c43cc84.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.4a0de46d03603c43cc84.hot-update.js",
+      "publicPath": ".main.4a0de46d03603c43cc84.hot-update.js"
+    },
+    "main.4a0de46d03603c43cc84.hot-update.json": {
+      "name": "main.4a0de46d03603c43cc84.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.4a0de46d03603c43cc84.hot-update.json",
+      "publicPath": ".main.4a0de46d03603c43cc84.hot-update.json"
+    },
+    "main.5b8d435312630392d14e.hot-update.js": {
+      "name": "main.5b8d435312630392d14e.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.5b8d435312630392d14e.hot-update.js",
+      "publicPath": ".main.5b8d435312630392d14e.hot-update.js"
+    },
+    "main.5b8d435312630392d14e.hot-update.json": {
+      "name": "main.5b8d435312630392d14e.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.5b8d435312630392d14e.hot-update.json",
+      "publicPath": ".main.5b8d435312630392d14e.hot-update.json"
+    },
+    "main.633a2f6b1761d85c82ee.hot-update.js": {
+      "name": "main.633a2f6b1761d85c82ee.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.633a2f6b1761d85c82ee.hot-update.js",
+      "publicPath": ".main.633a2f6b1761d85c82ee.hot-update.js"
+    },
+    "main.633a2f6b1761d85c82ee.hot-update.json": {
+      "name": "main.633a2f6b1761d85c82ee.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.633a2f6b1761d85c82ee.hot-update.json",
+      "publicPath": ".main.633a2f6b1761d85c82ee.hot-update.json"
+    },
+    "main.6c857a61ded299a00deb.hot-update.js": {
+      "name": "main.6c857a61ded299a00deb.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.6c857a61ded299a00deb.hot-update.js",
+      "publicPath": ".main.6c857a61ded299a00deb.hot-update.js"
+    },
+    "main.6c857a61ded299a00deb.hot-update.json": {
+      "name": "main.6c857a61ded299a00deb.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.6c857a61ded299a00deb.hot-update.json",
+      "publicPath": ".main.6c857a61ded299a00deb.hot-update.json"
+    },
+    "main.793b1f37557e64ee0e03.hot-update.js": {
+      "name": "main.793b1f37557e64ee0e03.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.793b1f37557e64ee0e03.hot-update.js",
+      "publicPath": ".main.793b1f37557e64ee0e03.hot-update.js"
+    },
+    "main.793b1f37557e64ee0e03.hot-update.json": {
+      "name": "main.793b1f37557e64ee0e03.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.793b1f37557e64ee0e03.hot-update.json",
+      "publicPath": ".main.793b1f37557e64ee0e03.hot-update.json"
+    },
+    "main.7c63f4f246a08c499fce.hot-update.js": {
+      "name": "main.7c63f4f246a08c499fce.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.7c63f4f246a08c499fce.hot-update.js",
+      "publicPath": ".main.7c63f4f246a08c499fce.hot-update.js"
+    },
+    "main.7c63f4f246a08c499fce.hot-update.json": {
+      "name": "main.7c63f4f246a08c499fce.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.7c63f4f246a08c499fce.hot-update.json",
+      "publicPath": ".main.7c63f4f246a08c499fce.hot-update.json"
+    },
+    "main.837881c7df150f7a47d2.hot-update.js": {
+      "name": "main.837881c7df150f7a47d2.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.837881c7df150f7a47d2.hot-update.js",
+      "publicPath": ".main.837881c7df150f7a47d2.hot-update.js"
+    },
+    "main.837881c7df150f7a47d2.hot-update.json": {
+      "name": "main.837881c7df150f7a47d2.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.837881c7df150f7a47d2.hot-update.json",
+      "publicPath": ".main.837881c7df150f7a47d2.hot-update.json"
+    },
+    "main.94fa9841e2392582c4b0.hot-update.js": {
+      "name": "main.94fa9841e2392582c4b0.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.94fa9841e2392582c4b0.hot-update.js",
+      "publicPath": ".main.94fa9841e2392582c4b0.hot-update.js"
+    },
+    "main.94fa9841e2392582c4b0.hot-update.json": {
+      "name": "main.94fa9841e2392582c4b0.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.94fa9841e2392582c4b0.hot-update.json",
+      "publicPath": ".main.94fa9841e2392582c4b0.hot-update.json"
+    },
+    "main.a2357b08be57c46e72f1.hot-update.js": {
+      "name": "main.a2357b08be57c46e72f1.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.a2357b08be57c46e72f1.hot-update.js",
+      "publicPath": ".main.a2357b08be57c46e72f1.hot-update.js"
+    },
+    "main.a2357b08be57c46e72f1.hot-update.json": {
+      "name": "main.a2357b08be57c46e72f1.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.a2357b08be57c46e72f1.hot-update.json",
+      "publicPath": ".main.a2357b08be57c46e72f1.hot-update.json"
+    },
+    "main.ac77e0e679e61a96f0ad.hot-update.js": {
+      "name": "main.ac77e0e679e61a96f0ad.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ac77e0e679e61a96f0ad.hot-update.js",
+      "publicPath": ".main.ac77e0e679e61a96f0ad.hot-update.js"
+    },
+    "main.ac77e0e679e61a96f0ad.hot-update.json": {
+      "name": "main.ac77e0e679e61a96f0ad.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ac77e0e679e61a96f0ad.hot-update.json",
+      "publicPath": ".main.ac77e0e679e61a96f0ad.hot-update.json"
+    },
+    "main.ae32fe2fe5bb532cbe6a.hot-update.js": {
+      "name": "main.ae32fe2fe5bb532cbe6a.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ae32fe2fe5bb532cbe6a.hot-update.js",
+      "publicPath": ".main.ae32fe2fe5bb532cbe6a.hot-update.js"
+    },
+    "main.ae32fe2fe5bb532cbe6a.hot-update.json": {
+      "name": "main.ae32fe2fe5bb532cbe6a.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ae32fe2fe5bb532cbe6a.hot-update.json",
+      "publicPath": ".main.ae32fe2fe5bb532cbe6a.hot-update.json"
+    },
+    "main.aedcad782a652c3ba0bc.hot-update.js": {
+      "name": "main.aedcad782a652c3ba0bc.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.aedcad782a652c3ba0bc.hot-update.js",
+      "publicPath": ".main.aedcad782a652c3ba0bc.hot-update.js"
+    },
+    "main.aedcad782a652c3ba0bc.hot-update.json": {
+      "name": "main.aedcad782a652c3ba0bc.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.aedcad782a652c3ba0bc.hot-update.json",
+      "publicPath": ".main.aedcad782a652c3ba0bc.hot-update.json"
+    },
+    "main.b65bd5e8845fa580b840.hot-update.js": {
+      "name": "main.b65bd5e8845fa580b840.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.b65bd5e8845fa580b840.hot-update.js",
+      "publicPath": ".main.b65bd5e8845fa580b840.hot-update.js"
+    },
+    "main.b65bd5e8845fa580b840.hot-update.json": {
+      "name": "main.b65bd5e8845fa580b840.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.b65bd5e8845fa580b840.hot-update.json",
+      "publicPath": ".main.b65bd5e8845fa580b840.hot-update.json"
+    },
+    "main.ba2db1fdcbb32d8adf23.hot-update.js": {
+      "name": "main.ba2db1fdcbb32d8adf23.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ba2db1fdcbb32d8adf23.hot-update.js",
+      "publicPath": ".main.ba2db1fdcbb32d8adf23.hot-update.js"
+    },
+    "main.ba2db1fdcbb32d8adf23.hot-update.json": {
+      "name": "main.ba2db1fdcbb32d8adf23.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ba2db1fdcbb32d8adf23.hot-update.json",
+      "publicPath": ".main.ba2db1fdcbb32d8adf23.hot-update.json"
+    },
+    "main.c17617125eb4e50dc55e.hot-update.js": {
+      "name": "main.c17617125eb4e50dc55e.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.c17617125eb4e50dc55e.hot-update.js",
+      "publicPath": ".main.c17617125eb4e50dc55e.hot-update.js"
+    },
+    "main.c17617125eb4e50dc55e.hot-update.json": {
+      "name": "main.c17617125eb4e50dc55e.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.c17617125eb4e50dc55e.hot-update.json",
+      "publicPath": ".main.c17617125eb4e50dc55e.hot-update.json"
+    },
+    "main.c9846efb86e7897374b1.hot-update.js": {
+      "name": "main.c9846efb86e7897374b1.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.c9846efb86e7897374b1.hot-update.js",
+      "publicPath": ".main.c9846efb86e7897374b1.hot-update.js"
+    },
+    "main.c9846efb86e7897374b1.hot-update.json": {
+      "name": "main.c9846efb86e7897374b1.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.c9846efb86e7897374b1.hot-update.json",
+      "publicPath": ".main.c9846efb86e7897374b1.hot-update.json"
+    },
+    "main.ca4d92058a08a0d4ceeb.hot-update.js": {
+      "name": "main.ca4d92058a08a0d4ceeb.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ca4d92058a08a0d4ceeb.hot-update.js",
+      "publicPath": ".main.ca4d92058a08a0d4ceeb.hot-update.js"
+    },
+    "main.ca4d92058a08a0d4ceeb.hot-update.json": {
+      "name": "main.ca4d92058a08a0d4ceeb.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.ca4d92058a08a0d4ceeb.hot-update.json",
+      "publicPath": ".main.ca4d92058a08a0d4ceeb.hot-update.json"
+    },
+    "main.cd1d48af57b498b5d62b.hot-update.js": {
+      "name": "main.cd1d48af57b498b5d62b.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.cd1d48af57b498b5d62b.hot-update.js",
+      "publicPath": ".main.cd1d48af57b498b5d62b.hot-update.js"
+    },
+    "main.cd1d48af57b498b5d62b.hot-update.json": {
+      "name": "main.cd1d48af57b498b5d62b.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.cd1d48af57b498b5d62b.hot-update.json",
+      "publicPath": ".main.cd1d48af57b498b5d62b.hot-update.json"
+    },
+    "main.cd92c64341bd6e13219c.hot-update.js": {
+      "name": "main.cd92c64341bd6e13219c.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.cd92c64341bd6e13219c.hot-update.js",
+      "publicPath": ".main.cd92c64341bd6e13219c.hot-update.js"
+    },
+    "main.cd92c64341bd6e13219c.hot-update.json": {
+      "name": "main.cd92c64341bd6e13219c.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.cd92c64341bd6e13219c.hot-update.json",
+      "publicPath": ".main.cd92c64341bd6e13219c.hot-update.json"
+    },
+    "main.df23e6939db1509fc046.hot-update.js": {
+      "name": "main.df23e6939db1509fc046.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.df23e6939db1509fc046.hot-update.js",
+      "publicPath": ".main.df23e6939db1509fc046.hot-update.js"
+    },
+    "main.df23e6939db1509fc046.hot-update.json": {
+      "name": "main.df23e6939db1509fc046.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.df23e6939db1509fc046.hot-update.json",
+      "publicPath": ".main.df23e6939db1509fc046.hot-update.json"
+    },
+    "main.e08a8a3f070dcb825d60.hot-update.js": {
+      "name": "main.e08a8a3f070dcb825d60.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.e08a8a3f070dcb825d60.hot-update.js",
+      "publicPath": ".main.e08a8a3f070dcb825d60.hot-update.js"
+    },
+    "main.e08a8a3f070dcb825d60.hot-update.json": {
+      "name": "main.e08a8a3f070dcb825d60.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.e08a8a3f070dcb825d60.hot-update.json",
+      "publicPath": ".main.e08a8a3f070dcb825d60.hot-update.json"
+    },
+    "main.e55d0a604b9aba89d981.hot-update.js": {
+      "name": "main.e55d0a604b9aba89d981.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.e55d0a604b9aba89d981.hot-update.js",
+      "publicPath": ".main.e55d0a604b9aba89d981.hot-update.js"
+    },
+    "main.e55d0a604b9aba89d981.hot-update.json": {
+      "name": "main.e55d0a604b9aba89d981.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.e55d0a604b9aba89d981.hot-update.json",
+      "publicPath": ".main.e55d0a604b9aba89d981.hot-update.json"
+    },
+    "main.e59aeb022667a6a54fcc.hot-update.js": {
+      "name": "main.e59aeb022667a6a54fcc.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.e59aeb022667a6a54fcc.hot-update.js",
+      "publicPath": ".main.e59aeb022667a6a54fcc.hot-update.js"
+    },
+    "main.e59aeb022667a6a54fcc.hot-update.json": {
+      "name": "main.e59aeb022667a6a54fcc.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.e59aeb022667a6a54fcc.hot-update.json",
+      "publicPath": ".main.e59aeb022667a6a54fcc.hot-update.json"
+    },
+    "main.f1d51ec446c52afaf30b.hot-update.js": {
+      "name": "main.f1d51ec446c52afaf30b.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.f1d51ec446c52afaf30b.hot-update.js",
+      "publicPath": ".main.f1d51ec446c52afaf30b.hot-update.js"
+    },
+    "main.f1d51ec446c52afaf30b.hot-update.json": {
+      "name": "main.f1d51ec446c52afaf30b.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.f1d51ec446c52afaf30b.hot-update.json",
+      "publicPath": ".main.f1d51ec446c52afaf30b.hot-update.json"
+    },
+    "main.f28e1059462f1cde1116.hot-update.js": {
+      "name": "main.f28e1059462f1cde1116.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.f28e1059462f1cde1116.hot-update.js",
+      "publicPath": ".main.f28e1059462f1cde1116.hot-update.js"
+    },
+    "main.f28e1059462f1cde1116.hot-update.json": {
+      "name": "main.f28e1059462f1cde1116.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.f28e1059462f1cde1116.hot-update.json",
+      "publicPath": ".main.f28e1059462f1cde1116.hot-update.json"
+    },
+    "main.f2ea76e10cb7a3391537.hot-update.js": {
+      "name": "main.f2ea76e10cb7a3391537.hot-update.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.f2ea76e10cb7a3391537.hot-update.js",
+      "publicPath": ".main.f2ea76e10cb7a3391537.hot-update.js"
+    },
+    "main.f2ea76e10cb7a3391537.hot-update.json": {
+      "name": "main.f2ea76e10cb7a3391537.hot-update.json",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main.f2ea76e10cb7a3391537.hot-update.json",
+      "publicPath": ".main.f2ea76e10cb7a3391537.hot-update.json"
     }
   },
   "chunks": {
     "main": [
       "css/style.css",
-      "main-main-ac6fa7d535c4c0223206.js"
+      "main-main-c9744bb762f76c382add.js",
+      "main.2b746175389f3f223649.hot-update.js"
     ]
   },
-  "publicPath": "."
+  "publicPath": ".",
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\n\nSyntaxError\n\n(80:19) E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\src\\styles\\style.css Missed semicolon\n\n  78 |     min-height: 2px;\n  79 |     max-height: 2px;\n> 80 |     width: inherit\n     |                   ^\n  81 |     border: 0;\n  82 |     border-bottom: 1px solid #3d3d3d;\n"
 }

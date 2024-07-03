@@ -130,14 +130,17 @@ module.exports = {
       directory: path.resolve(__dirname, 'dist'), // '../static'
 
     },
+    
 
     watchFiles: [
       'dist',
     ],
-
+    hot: true, // Включение горячей перезагрузки
+    liveReload: true, // Включение live-reload
+    
     compress: true,
     historyApiFallback: true,
-    open: true,
+    open: true, // Автоматическое открытие браузера
     // port: 8080
   },
 
