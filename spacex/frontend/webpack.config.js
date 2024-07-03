@@ -14,9 +14,9 @@ module.exports = {
   entry: './src/index.ts',
   mode: 'none',
   output: {
-    path: path.resolve(__dirname, '../static/js'),
-    filename: 'main-[id]-[hash].js',
-    publicPath: '/',
+    path: path.resolve(__dirname, 'dist'), // '../static/js'
+    filename: 'main-[id]-[hash].js', // filename: 'main-[id]-[hash].js',
+    publicPath: '.',
     clean: true,
 
   },
@@ -65,13 +65,20 @@ module.exports = {
           // 'svg-transform-loader'
         ]
       },
-      // {
-      //   test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      //   type: 'asset/resource',
-      //   generator: {
-      //     filename: '../pic/[name][ext]',
-      //   },
-      // },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: './pic/[name][ext]',
+        },
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[hash][ext][query]'
+        }
+      },
 
     ]
   },
@@ -84,17 +91,15 @@ module.exports = {
       path: path.join(__dirname, 'src/bundles'),
       filename: 'webpack-stats.json'
     }),
-    new Dotenv(),
-    new SpriteLoaderPlugin({
-
-    }),
+    // new Dotenv(),
+    new SpriteLoaderPlugin(), // svg
     // new CopyPlugin({
     //   patterns: [
-    //     { from: './src/pic', to: '../pic', }
+    //     { from: './src/fonts', to: '../dist/font', }
     //   ],
     // }), // template: '../templates/index.html',
     new HtmlWebpackPlugin({
-      template: '../templates/index.html'
+      template: 'src/public/index.html' //'../templates/index.html'
     }),
     new webpack.SourceMapDevToolPlugin({
       test: /\.tsx?$/,
@@ -106,8 +111,9 @@ module.exports = {
       files: path.resolve(__dirname, 'src/scripts'),
 
     }),
+    // '../css/style.css'
     new MiniCssExtractPlugin({
-      filename: '../css/style.css'
+      filename: 'css/style.css'
     }),
   ],
   watchOptions: {
@@ -118,7 +124,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, '../static'),
+      directory: path.resolve(__dirname, 'dist'), // '../static'
 
     },
 
@@ -141,10 +147,10 @@ module.exports = {
     ],
 
     alias: {
-      '@Websocket': path.resolve(__dirname, "src/scripts/websockets/index.ts"),
-      "@Interfaces": path.resolve(__dirname, "src/interface.ts"),
-      "@htmlTemplates": path.resolve(__dirname, "src/scripts/templates"),
-      "@Service": path.resolve(__dirname, "src/scripts/chat"),
+      // '@Websocket': path.resolve(__dirname, "src/scripts/websockets/index.ts"),
+      // "@Interfaces": path.resolve(__dirname, "src/interface.ts"),
+      // "@htmlTemplates": path.resolve(__dirname, "src/scripts/templates"),
+      // "@Service": path.resolve(__dirname, "src/scripts/chat"),
     }
   },
 

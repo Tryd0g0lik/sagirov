@@ -1,0 +1,105 @@
+{
+  "status": "done",
+  "assets": {
+    "./pic/backgroung_main.png": {
+      "name": "./pic/backgroung_main.png",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\backgroung_main.png",
+      "publicPath": "../pic/backgroung_main.png",
+      "sourceFilename": "src/pic/backgroung_main.png"
+    },
+    "css/style.css": {
+      "name": "css/style.css",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\css\\style.css",
+      "publicPath": ".css/style.css"
+    },
+    "fonts/01319fe37a42d541dde3.eot": {
+      "name": "fonts/01319fe37a42d541dde3.eot",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\01319fe37a42d541dde3.eot",
+      "publicPath": ".fonts/01319fe37a42d541dde3.eot",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.eot"
+    },
+    "fonts/08a5da127bc1259cd254.ttf": {
+      "name": "fonts/08a5da127bc1259cd254.ttf",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\08a5da127bc1259cd254.ttf",
+      "publicPath": ".fonts/08a5da127bc1259cd254.ttf",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.ttf"
+    },
+    "fonts/090caa99f90ab640b9f0.eot": {
+      "name": "fonts/090caa99f90ab640b9f0.eot",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\090caa99f90ab640b9f0.eot",
+      "publicPath": ".fonts/090caa99f90ab640b9f0.eot",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.eot"
+    },
+    "fonts/117ac9a08044f50383be.woff2": {
+      "name": "fonts/117ac9a08044f50383be.woff2",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\117ac9a08044f50383be.woff2",
+      "publicPath": ".fonts/117ac9a08044f50383be.woff2",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.woff2"
+    },
+    "fonts/31d90e13015d52eb2dfd.woff": {
+      "name": "fonts/31d90e13015d52eb2dfd.woff",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\31d90e13015d52eb2dfd.woff",
+      "publicPath": ".fonts/31d90e13015d52eb2dfd.woff",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.woff"
+    },
+    "fonts/6f02d59063a46519fa0e.ttf": {
+      "name": "fonts/6f02d59063a46519fa0e.ttf",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\6f02d59063a46519fa0e.ttf",
+      "publicPath": ".fonts/6f02d59063a46519fa0e.ttf",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.ttf"
+    },
+    "fonts/9216b9e7585f02d2ed03.ttf": {
+      "name": "fonts/9216b9e7585f02d2ed03.ttf",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\9216b9e7585f02d2ed03.ttf",
+      "publicPath": ".fonts/9216b9e7585f02d2ed03.ttf",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.ttf"
+    },
+    "fonts/9fefbccdbf2e48211de1.woff2": {
+      "name": "fonts/9fefbccdbf2e48211de1.woff2",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\9fefbccdbf2e48211de1.woff2",
+      "publicPath": ".fonts/9fefbccdbf2e48211de1.woff2",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.woff2"
+    },
+    "fonts/d4ac835125d2f8572051.woff2": {
+      "name": "fonts/d4ac835125d2f8572051.woff2",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\d4ac835125d2f8572051.woff2",
+      "publicPath": ".fonts/d4ac835125d2f8572051.woff2",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.woff2"
+    },
+    "fonts/e05cd175e9eb5968797a.woff": {
+      "name": "fonts/e05cd175e9eb5968797a.woff",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\e05cd175e9eb5968797a.woff",
+      "publicPath": ".fonts/e05cd175e9eb5968797a.woff",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.woff"
+    },
+    "fonts/e77eb7ef429dfaeffdc7.eot": {
+      "name": "fonts/e77eb7ef429dfaeffdc7.eot",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\e77eb7ef429dfaeffdc7.eot",
+      "publicPath": ".fonts/e77eb7ef429dfaeffdc7.eot",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.eot"
+    },
+    "fonts/faadb6a55f65113e77a8.woff": {
+      "name": "fonts/faadb6a55f65113e77a8.woff",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\faadb6a55f65113e77a8.woff",
+      "publicPath": ".fonts/faadb6a55f65113e77a8.woff",
+      "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.woff"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\index.html",
+      "publicPath": ".index.html"
+    },
+    "main-main-1a810016734f00bcc029.js": {
+      "name": "main-main-1a810016734f00bcc029.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-1a810016734f00bcc029.js",
+      "publicPath": ".main-main-1a810016734f00bcc029.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "css/style.css",
+      "main-main-1a810016734f00bcc029.js"
+    ]
+  },
+  "publicPath": "."
+}
