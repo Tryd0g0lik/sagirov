@@ -16,7 +16,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'), // '../static/js'
     filename: 'main-[id]-[hash].js', // filename: 'main-[id]-[hash].js',
-    publicPath: '.',
+    publicPath: '/',
     clean: true,
 
   },
@@ -79,7 +79,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[hash][ext][query]'
+          filename: 'fonts/[name][ext]'  // [hash][ext][query]'
         }
       },
 
