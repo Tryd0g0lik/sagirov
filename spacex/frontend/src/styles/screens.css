@@ -1,0 +1,45 @@
+@media (max-width: 1140px){
+.main__button::after{
+display: none;
+}
+}
+
+@media (max-width: 1024px){
+.main__middle,
+.header__middle{
+width: 5px;
+}
+.header__menu ul{
+column-gap: 1%;
+}
+}
+
+@media (max-width: 920px){
+
+.header__menu,
+ header__menu::before{
+ border: 0;
+ }
+.header__menu {
+ position:relative;
+  width: 22px;
+  padding: 0;
+  max-height: 22px;
+  border-width: 0px;
+  border-style: solid;
+  border-top: 1px;
+  border:bottom: 1px;
+
+}
+.header__menu::before{
+content: '1';
+font-size: 0.1px;
+width: 100%;
+max-height: 1px;
+background-color: aliceblue;
+position: absolute;
+top:0;
+left: 0;
+
+}
+}

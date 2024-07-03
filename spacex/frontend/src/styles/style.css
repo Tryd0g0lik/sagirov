@@ -187,6 +187,11 @@ text-transform:lowercase;
   margin-bottom: 50px;
 }
 
+.main__middle{
+  width: 100%;
+  max-width: 21.9%;
+}
+
 .main_statically {
   max-width: 326px;
   width: 100%;
