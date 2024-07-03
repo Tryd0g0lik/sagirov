@@ -1,1 +1,36 @@
 
+
+.body {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+header {
+  width: 100%;
+  max-width: 1170px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.header__logo{
+    background: no-repeat url("../pic/background_logo.png") center;
+}
+
+.header__logo,
+.header__logo_img{
+    min-height: 100px;
+    max-height: 100px;
+    }
+
+.header__logo_img {
+    width:315px;
+    background: no-repeat url("../pic/svg/logo.svg") center;
+
+
+}

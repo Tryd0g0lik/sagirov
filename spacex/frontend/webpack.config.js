@@ -56,15 +56,18 @@ module.exports = {
       },
       {
         test: /\.svg$/,
+        include: path.resolve(__dirname, 'src/pic/svg'),
+        // type: 'asset/resource',
         type: 'asset/inline',
         generator: {
-          // filename: '../pic/[hash][ext]'
+          filename: 'pic/svg/[name][ext]',
         },
-        use: [
-          'svgo-loader',
+        // use: [
+          // 'svgo-loader',
           // 'svg-transform-loader'
-        ]
+        // ]
       },
+    
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
@@ -95,7 +98,7 @@ module.exports = {
     new SpriteLoaderPlugin(), // svg
     // new CopyPlugin({
     //   patterns: [
-    //     { from: './src/fonts', to: '../dist/font', }
+    //     { from: 'src/**/*.svg', to: 'pic/svg', }
     //   ],
     // }), // template: '../templates/index.html',
     new HtmlWebpackPlugin({
@@ -129,7 +132,7 @@ module.exports = {
     },
 
     watchFiles: [
-      './src/scripts',
+      'dist',
     ],
 
     compress: true,

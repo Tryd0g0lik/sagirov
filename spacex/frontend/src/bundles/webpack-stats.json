@@ -1,11 +1,23 @@
 {
   "status": "done",
   "assets": {
+    "./pic/background_logo.png": {
+      "name": "./pic/background_logo.png",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\background_logo.png",
+      "publicPath": "../pic/background_logo.png",
+      "sourceFilename": "src/pic/background_logo.png"
+    },
     "./pic/backgroung_main.png": {
       "name": "./pic/backgroung_main.png",
       "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\backgroung_main.png",
       "publicPath": "../pic/backgroung_main.png",
       "sourceFilename": "src/pic/backgroung_main.png"
+    },
+    "./pic/logo.svg": {
+      "name": "./pic/logo.svg",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\logo.svg",
+      "publicPath": "../pic/logo.svg",
+      "sourceFilename": "src/pic/svg/logo.svg"
     },
     "css/style.css": {
       "name": "css/style.css",
@@ -89,16 +101,16 @@
       "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\index.html",
       "publicPath": ".index.html"
     },
-    "main-main-1a810016734f00bcc029.js": {
-      "name": "main-main-1a810016734f00bcc029.js",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-1a810016734f00bcc029.js",
-      "publicPath": ".main-main-1a810016734f00bcc029.js"
+    "main-main-ac6fa7d535c4c0223206.js": {
+      "name": "main-main-ac6fa7d535c4c0223206.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-ac6fa7d535c4c0223206.js",
+      "publicPath": ".main-main-ac6fa7d535c4c0223206.js"
     }
   },
   "chunks": {
     "main": [
       "css/style.css",
-      "main-main-1a810016734f00bcc029.js"
+      "main-main-ac6fa7d535c4c0223206.js"
     ]
   },
   "publicPath": "."

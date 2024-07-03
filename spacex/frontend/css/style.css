@@ -1,3 +1,48 @@
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/fonts.css ***!
+  \**********************************************************************************************************************************************/
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url(/090caa99f90ab640b9f0.eot);
+  src: local('MuseoSansCyrl-100'),
+    url(/090caa99f90ab640b9f0.eot?#iefix) format('embedded-opentype'),
+    url(/d4ac835125d2f8572051.woff2) format('woff2'),
+    url(/31d90e13015d52eb2dfd.woff) format('woff'),
+    url(/08a5da127bc1259cd254.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url(/01319fe37a42d541dde3.eot);
+  src: local('MuseoSansCyrl-300'),
+    url(/01319fe37a42d541dde3.eot?#iefix) format('embedded-opentype'),
+    url(/9fefbccdbf2e48211de1.woff2) format('woff2'),
+    url(/e05cd175e9eb5968797a.woff) format('woff'),
+    url(/6f02d59063a46519fa0e.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url(/e77eb7ef429dfaeffdc7.eot);
+  src: local('MuseoSansCyrl-700'),
+    url(/e77eb7ef429dfaeffdc7.eot?#iefix) format('embedded-opentype'),
+    url(/117ac9a08044f50383be.woff2) format('woff2'),
+    url(/faadb6a55f65113e77a8.woff) format('woff'),
+    url(/9216b9e7585f02d2ed03.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/basis.css ***!
+  \**********************************************************************************************************************************************/
 /*
 http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
@@ -160,7 +205,7 @@ body {
   margin: 0 auto;
   padding: 20px 20px 0 20px;
   overflow: hidden;
-  background: no-repeat url('../pic/backgroung_main.png') center;
+  background: no-repeat url(/d274486cdd647019e470.png) center;
   background-size: cover;
 }
 
@@ -301,3 +346,43 @@ butoom {
 
 
 
+
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/style.css ***!
+  \**********************************************************************************************************************************************/
+
+
+.body {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+header {
+  width: 100%;
+  max-width: 1170px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.header__logo{
+    background: no-repeat url(/d3a1ac358fa9d1e9b573.png) center;
+}
+
+.header__logo,
+.header__logo_img{
+    min-height: 100px;
+    max-height: 100px;
+    }
+
+.header__logo_img {
+    width:315px;
+    background: no-repeat url(/d62981eb534e1d4f47af.svg) center;
+
+
+}
