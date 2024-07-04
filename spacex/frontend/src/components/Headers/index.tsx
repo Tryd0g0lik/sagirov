@@ -1,10 +1,34 @@
-import React from 'react';
-import './style.css';
+import React, { useEffect, useState } from 'react';
 
-export function HeaderFC():React.JSX.Element {
+export function HeaderFC (): React.JSX.Element {
+  const [menuItems, setMenuItems] = useState([]);
+  async function getMenuApi (): Promise<object[] | boolean> {
+    const response = await fetch('http://127.0.0.1:8000/api/v1/menu/', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    if (response.ok) {
+      // debugger
+      const data = await response.json();
+      return data as object[];
+    }
+    return false;
+  }
+  useEffect(() => {
+    async function publicationsMenu(): Promise<undefined> {
+      const respons = await getMenuApi();
+      if ((typeof respons).includes('boolean')) {
+        return undefined;
+      }
+      setMenuItems(respons as object[]);
+    }
+    publicationsMenu();
+  }, []);
   return (
     <header>
-      <div className="header">
+      <div className="header" >
         <div className="header__logo">
           <div className="header__logo_img">
             {/* < !--logo --> */}
@@ -14,28 +38,17 @@ export function HeaderFC():React.JSX.Element {
         <div className="header__menu">
           <menu>
             <ul className="menu">
-              <li className="menu__item">
-                <a href="/" className="menu__link">Главная</a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__link">Технология</a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__link">График полетов</a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__link">Гарантии</a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__link">О компании</a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__link">Контакты</a>
-              </li>
+              {menuItems.map((item, index) => (
+                <li className="menu__item" key={index}>
+                  <a href={item['link']} className="menu__link">
+                    {item['title']}
+                  </a>
+                </li>
+              ))}
             </ul>
           </menu>
         </div>
       </div>
     </header>
-  )
+  );
 }

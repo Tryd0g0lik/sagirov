@@ -7,7 +7,7 @@
 }
 
 .header__logo {
-  background: no-repeat url("../../pic/background_logo.png") center;
+  background: no-repeat url("../pic/background_logo.png") center;
 }
 
 .header__logo,
@@ -18,7 +18,7 @@
 
 .header__logo_img {
   width: 290px;
-  background: no-repeat url("../../pic/svg/logo.svg") center;
+  background: no-repeat url("../pic/svg/logo.svg") center;
   background-position: 8px 20px;
 }
 
@@ -55,13 +55,13 @@
   color: #929292;
 }
 
-a:hover::after {
+.header__menu a:hover::after {
   content: 'Hi';
   font-size: 0.33px;
   display: block;
   min-height: 1px;
   max-height: 1px;
-  width: calc(100% + 4px);
+  width: calc(100% + 8px);
   border: 0;
   /* border-bottom: 1px solid #fff; */
   position: absolute;
