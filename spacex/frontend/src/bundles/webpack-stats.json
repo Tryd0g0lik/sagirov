@@ -113,16 +113,16 @@
       "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\index.html",
       "publicPath": "/index.html"
     },
-    "main-main-eb0a509a49da46a28418.js": {
-      "name": "main-main-eb0a509a49da46a28418.js",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-eb0a509a49da46a28418.js",
-      "publicPath": "/main-main-eb0a509a49da46a28418.js"
+    "main-main-aa71274e9fec5d9e4170.js": {
+      "name": "main-main-aa71274e9fec5d9e4170.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-aa71274e9fec5d9e4170.js",
+      "publicPath": "/main-main-aa71274e9fec5d9e4170.js"
     }
   },
   "chunks": {
     "main": [
       "css/style.css",
-      "main-main-eb0a509a49da46a28418.js"
+      "main-main-aa71274e9fec5d9e4170.js"
     ]
   },
   "publicPath": "/"

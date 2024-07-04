@@ -378,7 +378,7 @@ header {
 display: inline-block;
 }
 .header__logo{
-    background: no-repeat url(/d3a1ac358fa9d1e9b573.png) center;
+    background: no-repeat url('./src/pic/background_logo.png') center;
 }
 
 .header__logo,

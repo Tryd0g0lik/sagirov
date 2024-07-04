@@ -1,11 +1,12 @@
 // https://www.typescriptlang.org/tsconfig
 {
   "compilerOptions": {
+    "jsx": "react",
     "noImplicitAny": true,
     "module": "ES6",
     "target": "ES2020",
     "rootDirs": [
-      "./src/scripts"
+      "./src"
     ],
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
