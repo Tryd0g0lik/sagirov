@@ -202,15 +202,15 @@ body {
 }
 
 .body {
-
+  overflow: hidden;
   min-width: 319px;
-  width: 100vw;
+  /* width: 100vw; */
   max-width: 1920px;
   min-height: 660px;
   height: 100px;
   max-height: 660px;
   background: #f0f0f0;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 20px 20px 0 20px;
   overflow: hidden;
   background: no-repeat url(../javascripts/../pic/backgroung_main.png) center;
@@ -512,7 +512,7 @@ hgroup p {
   border-style: solid;
 }
 
-.main_statically .main_statically_present,
+.main_statically > div:nth-of-type(2),
 .main_statically>div:last-of-type {
   padding-top: 42px;
   padding-bottom: 34px;
@@ -533,19 +533,19 @@ hgroup p {
 
 .main_statically>div span:first-of-type,
 .main_statically>div span:last-of-type,
-.main_statically .main_statically_present span:first-of-type+span::after {
+.main_statically > div:nth-of-type(3) span:first-of-type+span::after {
 
   color: #c0b8b8;
   font-size: 1.385rem;
 }
 
 
-.main_statically .main_statically_present span:first-of-type+span {
+.main_statically > div:nth-of-type(3) span:first-of-type+span {
   position: relative;
   padding-right: 10px;
 }
 
-.main_statically .main_statically_present span:first-of-type+span::after {
+.main_statically > div:nth-of-type(3) span:first-of-type+span::after {
   content: 'г.';
   font-family: 'Museo-Sans-Cyrl-100';
   position: absolute;
@@ -554,13 +554,97 @@ hgroup p {
   max-height: 10px;
   bottom: 16px;
 }
-
+.main_statically>div:nth-of-type(3) {
+  padding-top: 42px;
+  padding-bottom: 34px;
+}
 .main_statically>div>div {
   min-height: 100%;
   max-height: 188px;
 }
 
 .main_statically_market {}
+
+/*!***********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/header.css ***!
+  \***********************************************************************************************************************************************/
+/* ------ Header Logo ------ */
+.header__logo,
+.header__middle,
+.header__menu,
+.header__menu ul li {
+  display: inline-block;
+}
+
+.header__logo {
+  background: no-repeat url(../javascripts/../pic/background_logo.png) center;
+}
+
+.header__logo,
+.header__logo_img {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.header__logo_img {
+  width: 290px;
+  background: no-repeat url(../javascripts/../pic/logo.svg) center;
+  background-position: 8px 20px;
+}
+
+/* ------ Header menu ------ */
+.header__menu {
+  width: 100%;
+  max-width: 724px;
+  padding-top: 41px;
+}
+
+.header__menu ul,
+.header__menu ul.active {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3%;
+}
+
+.header__menu li {
+  position: relative;
+  vertical-align: top;
+}
+
+.header__menu a {
+  display: block;
+  height: 100%;
+  padding: 0 5px 11px 5px;
+  color: #ffffff;
+}
+
+
+.header__menu a:hover {
+  color: #929292;
+}
+
+a:hover::after {
+  content: 'Hi';
+  font-size: 0.33px;
+  display: block;
+  min-height: 1px;
+  max-height: 1px;
+  width: calc(100% + 4px);
+  border: 0;
+  /* border-bottom: 1px solid #fff; */
+  position: absolute;
+  /* bottom: 0; */
+  border: 0;
+  background-color: #3d3d3d;
+  bottom: 2px;
+  left: 9px;
+}
+
+.header__middle {
+  width: 11.2%;
+}
 
 /*!************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/screens.css ***!
@@ -727,84 +811,3 @@ display: none;
       font-size: 46px;
     }
 }
-/*!***********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/header.css ***!
-  \***********************************************************************************************************************************************/
-/* ------ Header Logo ------ */
-.header__logo,
-.header__middle,
-.header__menu,
-.header__menu ul li {
-  display: inline-block;
-}
-
-.header__logo {
-  background: no-repeat url(../javascripts/../pic/background_logo.png) center;
-}
-
-.header__logo,
-.header__logo_img {
-  min-height: 100px;
-  max-height: 100px;
-}
-
-.header__logo_img {
-  width: 290px;
-  background: no-repeat url(../javascripts/../pic/logo.svg) center;
-  background-position: 8px 20px;
-}
-
-/* ------ Header menu ------ */
-.header__menu {
-  width: 100%;
-  max-width: 724px;
-  padding-top: 41px;
-}
-
-.header__menu ul,
-.header__menu ul.active {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  column-gap: 3%;
-}
-
-.header__menu li {
-  position: relative;
-  vertical-align: top;
-}
-
-.header__menu a {
-  display: block;
-  height: 100%;
-  padding: 0 5px 11px 5px;
-  color: #ffffff;
-}
-
-
-.header__menu a:hover {
-  color: #929292;
-}
-
-a:hover::after {
-  content: 'Hi';
-  font-size: 0.33px;
-  display: block;
-  min-height: 1px;
-  max-height: 1px;
-  width: calc(100% + 4px);
-  border: 0;
-  /* border-bottom: 1px solid #fff; */
-  position: absolute;
-  /* bottom: 0; */
-  border: 0;
-  background-color: #3d3d3d;
-  bottom: 2px;
-  left: 9px;
-}
-
-.header__middle {
-  width: 11.2%;
-}
-

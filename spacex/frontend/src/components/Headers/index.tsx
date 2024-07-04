@@ -17,14 +17,14 @@ export function HeaderFC (): React.JSX.Element {
     return false;
   }
   useEffect(() => {
-    async function publicationsManu(): Promise<undefined> {
+    async function publicationsMenu(): Promise<undefined> {
       const respons = await getMenuApi();
       if ((typeof respons).includes('boolean')) {
         return undefined;
       }
       setMenuItems(respons as object[]);
     }
-    publicationsManu();
+    publicationsMenu();
   }, []);
   return (
     <header>

@@ -1,6 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-export function MainFC (): React.JSX.Element {
+export function MainFC(): React.JSX.Element {
+  const [menuItems, setMenuItems] = useState([]);
+  async function getMenuApi(): Promise<object[] | boolean> {
+    const response = await fetch('http://127.0.0.1:8000/api/v1/statistic/', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    if (response.ok) {
+      // debugger
+      const data = await response.json();
+      return data as object[];
+    }
+    return false;
+  }
+  useEffect(() => {
+    async function publicationsStatistic(): Promise<undefined> {
+      const respons = await getMenuApi();
+      if ((typeof respons).includes('boolean')) {
+        return undefined;
+      }
+      setMenuItems(respons as object[]);
+    }
+    publicationsStatistic();
+  }, []);
   return (
     <main>
       <section className="main">
@@ -19,7 +44,14 @@ export function MainFC (): React.JSX.Element {
         </div>
         <div className="main__middle"></div>
         <div className="main_statically">
-          <div className="main_statically_market">
+          {menuItems.map((item, index) => (
+            <div className="main_statically_market" key={index}>
+              <span>{item['first']}</span>
+              <span>{item['number']}</span>
+              <span>{item['second']}</span>
+            </div>
+          ))}
+          {/* <div className="main_statically_market">
             <span>мы</span>
             <span>1</span>
             <span>на рынке</span>
@@ -38,7 +70,7 @@ export function MainFC (): React.JSX.Element {
             <span>путешествие</span>
             <span>597</span>
             <span>дней</span>
-          </div>
+          </div> */}
 
         </div>
       </section>

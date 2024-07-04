@@ -94,15 +94,15 @@
       "name": "index.html",
       "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\javascripts\\index.html"
     },
-    "main-main-50ff1978e4132ec6308a.js": {
-      "name": "main-main-50ff1978e4132ec6308a.js",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\javascripts\\main-main-50ff1978e4132ec6308a.js"
+    "main-main-2db15636aad79ab07fd7.js": {
+      "name": "main-main-2db15636aad79ab07fd7.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\javascripts\\main-main-2db15636aad79ab07fd7.js"
     }
   },
   "chunks": {
     "main": [
       "../css/style.css",
-      "main-main-50ff1978e4132ec6308a.js"
+      "main-main-2db15636aad79ab07fd7.js"
     ]
   }
 }
