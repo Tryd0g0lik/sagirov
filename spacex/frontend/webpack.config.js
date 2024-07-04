@@ -14,7 +14,7 @@ module.exports = {
   entry: './src/index.ts',
   mode: 'none',
   output: {
-    path: path.resolve(__dirname, 'dist'), // '../static/js'
+    path: path.resolve(__dirname, '../static/spacex'), // '../static'
     filename: 'main-[id]-[hash].js', // filename: 'main-[id]-[hash].js',
     publicPath: '/',
     clean: true,

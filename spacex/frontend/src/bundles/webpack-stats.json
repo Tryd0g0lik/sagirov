@@ -3,119 +3,119 @@
   "assets": {
     "./pic/background_logo.png": {
       "name": "./pic/background_logo.png",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\background_logo.png",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\pic\\background_logo.png",
       "publicPath": "/./pic/background_logo.png",
       "sourceFilename": "src/pic/background_logo.png"
     },
     "./pic/background_rocket.png": {
       "name": "./pic/background_rocket.png",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\background_rocket.png",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\pic\\background_rocket.png",
       "publicPath": "/./pic/background_rocket.png",
       "sourceFilename": "src/pic/background_rocket.png"
     },
     "./pic/backgroung_main.png": {
       "name": "./pic/backgroung_main.png",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\backgroung_main.png",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\pic\\backgroung_main.png",
       "publicPath": "/./pic/backgroung_main.png",
       "sourceFilename": "src/pic/backgroung_main.png"
     },
     "./pic/backroung_buttom.png": {
       "name": "./pic/backroung_buttom.png",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\backroung_buttom.png",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\pic\\backroung_buttom.png",
       "publicPath": "/./pic/backroung_buttom.png",
       "sourceFilename": "src/pic/backroung_buttom.png"
     },
     "./pic/logo.svg": {
       "name": "./pic/logo.svg",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\pic\\logo.svg",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\pic\\logo.svg",
       "publicPath": "/./pic/logo.svg",
       "sourceFilename": "src/pic/svg/logo.svg"
     },
     "css/style.css": {
       "name": "css/style.css",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\css\\style.css",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\css\\style.css",
       "publicPath": "/css/style.css"
     },
     "fonts/MuseoSansCyrl-100.eot": {
       "name": "fonts/MuseoSansCyrl-100.eot",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-100.eot",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-100.eot",
       "publicPath": "/fonts/MuseoSansCyrl-100.eot",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.eot"
     },
     "fonts/MuseoSansCyrl-100.ttf": {
       "name": "fonts/MuseoSansCyrl-100.ttf",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-100.ttf",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-100.ttf",
       "publicPath": "/fonts/MuseoSansCyrl-100.ttf",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.ttf"
     },
     "fonts/MuseoSansCyrl-100.woff": {
       "name": "fonts/MuseoSansCyrl-100.woff",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-100.woff",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-100.woff",
       "publicPath": "/fonts/MuseoSansCyrl-100.woff",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.woff"
     },
     "fonts/MuseoSansCyrl-100.woff2": {
       "name": "fonts/MuseoSansCyrl-100.woff2",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-100.woff2",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-100.woff2",
       "publicPath": "/fonts/MuseoSansCyrl-100.woff2",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-100.woff2"
     },
     "fonts/MuseoSansCyrl-300.eot": {
       "name": "fonts/MuseoSansCyrl-300.eot",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-300.eot",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-300.eot",
       "publicPath": "/fonts/MuseoSansCyrl-300.eot",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.eot"
     },
     "fonts/MuseoSansCyrl-300.ttf": {
       "name": "fonts/MuseoSansCyrl-300.ttf",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-300.ttf",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-300.ttf",
       "publicPath": "/fonts/MuseoSansCyrl-300.ttf",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.ttf"
     },
     "fonts/MuseoSansCyrl-300.woff": {
       "name": "fonts/MuseoSansCyrl-300.woff",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-300.woff",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-300.woff",
       "publicPath": "/fonts/MuseoSansCyrl-300.woff",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.woff"
     },
     "fonts/MuseoSansCyrl-300.woff2": {
       "name": "fonts/MuseoSansCyrl-300.woff2",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-300.woff2",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-300.woff2",
       "publicPath": "/fonts/MuseoSansCyrl-300.woff2",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-300.woff2"
     },
     "fonts/MuseoSansCyrl-700.eot": {
       "name": "fonts/MuseoSansCyrl-700.eot",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-700.eot",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-700.eot",
       "publicPath": "/fonts/MuseoSansCyrl-700.eot",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.eot"
     },
     "fonts/MuseoSansCyrl-700.ttf": {
       "name": "fonts/MuseoSansCyrl-700.ttf",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-700.ttf",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-700.ttf",
       "publicPath": "/fonts/MuseoSansCyrl-700.ttf",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.ttf"
     },
     "fonts/MuseoSansCyrl-700.woff": {
       "name": "fonts/MuseoSansCyrl-700.woff",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-700.woff",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-700.woff",
       "publicPath": "/fonts/MuseoSansCyrl-700.woff",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.woff"
     },
     "fonts/MuseoSansCyrl-700.woff2": {
       "name": "fonts/MuseoSansCyrl-700.woff2",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\fonts\\MuseoSansCyrl-700.woff2",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\fonts\\MuseoSansCyrl-700.woff2",
       "publicPath": "/fonts/MuseoSansCyrl-700.woff2",
       "sourceFilename": "src/fonts/museoSansCyrl/MuseoSansCyrl-700.woff2"
     },
     "index.html": {
       "name": "index.html",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\index.html",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\index.html",
       "publicPath": "/index.html"
     },
     "main-main-aa71274e9fec5d9e4170.js": {
       "name": "main-main-aa71274e9fec5d9e4170.js",
-      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\frontend\\dist\\main-main-aa71274e9fec5d9e4170.js",
+      "path": "E:\\OpenServer\\domains\\t-sagirov\\spacex\\static\\spacex\\main-main-aa71274e9fec5d9e4170.js",
       "publicPath": "/main-main-aa71274e9fec5d9e4170.js"
     }
   },
