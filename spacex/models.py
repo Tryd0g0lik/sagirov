@@ -1,5 +1,5 @@
 from django.db import models
-from django.core.validators import RegexValidator, MaxLengthValidator, MinLengthValidator
+from django.core.validators import RegexValidator
 
 
 class MenuItemModels(models.Model):

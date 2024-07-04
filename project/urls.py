@@ -18,12 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 from spacex.views import home_page
 from .rest_router import router
-# from rest_framework import routers
-
-
-# router = routers.DefaultRouter()
-# router.register(r'menu',MenuApiViews, 'manu')
-# router.register(r'statistic', StatisticApiViews, 'statistic')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
