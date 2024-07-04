@@ -30,7 +30,7 @@ header {
 .header__middle,
 .header__menu,
 .header__menu ul li{
-display: inline-block;
+  display: inline-block;
 }
 .header__logo{
     background: no-repeat url("../pic/background_logo.png") center;
@@ -43,10 +43,9 @@ display: inline-block;
 }
 
 .header__logo_img {
-    width:290px;
-    background: no-repeat url("../pic/svg/logo.svg") center;
-    background-position: 8px 20px;
-
+  width:290px;
+  background: no-repeat url("../pic/svg/logo.svg") center;
+  background-position: 8px 20px;
 }
 
 /* ------ Header menu ------ */
@@ -55,7 +54,8 @@ display: inline-block;
    max-width: 724px;
    padding-top:41px;
 }
-.header__menu ul {
+.header__menu ul,
+ .header__menu ul.active{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
