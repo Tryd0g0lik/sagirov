@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'webpack_loader',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -137,31 +138,31 @@ MEDIA_URL = 'media/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+DEFAULT_CHARSET = 'utf-8'
 # WEBPACK
-# STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, 'assets'),
-# )
-#
-# WEBPACK_LOADER ={
-#     'DEFAULT':{
-#         'CACHE':not DEBUG,
-#         'BUNDLE_DIR_NAME': 'app_messager/interface/dist/',
-#         'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
-#         'POLL_INTERVAL':0.1,
-#         'TIMEOUT': None,
-#         'TEST': {
-#             'NAME': 'test_messager',
-#         },
-#         'IGNORE': [
-#             '.+\.map$'
-#         ],
-#         'LOADER_CLASS': 'webpack_loader.loader.WebpackLoader',
-#     }
-# }
-#
-# if not DEBUG:
-#     WEBPACK_LOADER['DEFAULT'].update({
-#         'BUNDLE_DIR_NAME': 'dist/',
-#         'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats-prod.json')
-#     })
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'spacex'),
+)
+
+WEBPACK_LOADER ={
+    'DEFAULT':{
+        'CACHE':not DEBUG,
+        'BUNDLE_DIR_NAME': 'spacex/interface/dist/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+        'POLL_INTERVAL':0.1,
+        'TIMEOUT': None,
+        'TEST': {
+            'NAME': 'test_spacex',
+        },
+        'IGNORE': [
+            '.+\.map$'
+        ],
+        'LOADER_CLASS': 'webpack_loader.loader.WebpackLoader',
+    }
+}
+
+if not DEBUG:
+    WEBPACK_LOADER['DEFAULT'].update({
+        'BUNDLE_DIR_NAME': 'dist/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats-prod.json')
+    })

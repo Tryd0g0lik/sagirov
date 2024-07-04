@@ -1,10 +1,16 @@
-import React from 'react';
-import './style.css';
+import React, { useState } from 'react';
 
-export function HeaderFC():React.JSX.Element {
+export function HeaderFC(posts: object[]): React.JSX.Element {
+  const [menuItems, setMenuItems] = useState([]);
+
+  useEffect(() => {
+    const rootElement = document.getElementById('root') as HTMLElement;
+    const menuItemsData = rootElement.getAttribute('data-menu-items');
+    setMenuItems(JSON.parse(menuItemsData as string));
+  }, []);
   return (
     <header>
-      <div className="header">
+      <div className="header" data-menu-items="{{ menu_items }}">
         <div className="header__logo">
           <div className="header__logo_img">
             {/* < !--logo --> */}
@@ -14,7 +20,14 @@ export function HeaderFC():React.JSX.Element {
         <div className="header__menu">
           <menu>
             <ul className="menu">
-              <li className="menu__item">
+              {
+                Array.from(menuItems).map((item, index) => (
+                  <li className="menu__item" key={index}>
+                    <a href={item.pathname} className="menu__link">{ item.title}</a>
+                  </li>
+                ))
+              }
+              {/* <li className="menu__item">
                 <a href="/" className="menu__link">Главная</a>
               </li>
               <li className="menu__item">
@@ -31,11 +44,12 @@ export function HeaderFC():React.JSX.Element {
               </li>
               <li className="menu__item">
                 <a className="menu__link">Контакты</a>
-              </li>
+              </li> */
+              }
             </ul>
           </menu>
         </div>
       </div>
     </header>
-  )
+  );
 }

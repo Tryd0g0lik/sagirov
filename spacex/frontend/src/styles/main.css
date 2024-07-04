@@ -54,7 +54,7 @@ hgroup p {
   width: 186px;
   min-height: 36px;
   max-height: 36px;
-  background: no-repeat url("../../pic/backroung_buttom.png") center;
+  background: no-repeat url("../pic/backroung_buttom.png") center;
   background-size: cover;
   color: #ffffff;
   font-size: 1.08rem;
@@ -84,7 +84,7 @@ hgroup p {
   right: 0;
   bottom: 90px;
   font-size: 0.1px;
-  background: no-repeat url("../../pic/background_rocket.png") center;
+  background: no-repeat url("../pic/background_rocket.png") center;
   background-position-x: 0;
   z-index: 2;
 }

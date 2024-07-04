@@ -7,7 +7,7 @@
 }
 
 .header__logo {
-  background: no-repeat url("../../pic/background_logo.png") center;
+  background: no-repeat url("../pic/background_logo.png") center;
 }
 
 .header__logo,
@@ -18,7 +18,7 @@
 
 .header__logo_img {
   width: 290px;
-  background: no-repeat url("../../pic/svg/logo.svg") center;
+  background: no-repeat url("../pic/svg/logo.svg") center;
   background-position: 8px 20px;
 }
 

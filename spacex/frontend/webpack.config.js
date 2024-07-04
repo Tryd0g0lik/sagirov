@@ -14,9 +14,9 @@ module.exports = {
   entry: './src/index.ts',
   mode: 'none',
   output: {
-    path: path.resolve(__dirname, '../static/spacex'), // '../static'
+    path: path.resolve(__dirname, '../static/spacex/javascripts'), // '../static'
     filename: 'main-[id]-[hash].js', // filename: 'main-[id]-[hash].js',
-    publicPath: '/',
+   
     clean: true,
 
   },
@@ -72,14 +72,14 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
         generator: {
-          filename: './pic/[name][ext]',
+          filename: '../pic/[name][ext]',
         },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[name][ext]'  // [hash][ext][query]'
+          filename: '../fonts/[name][ext]'  // [hash][ext][query]'
         }
       },
 
@@ -116,7 +116,7 @@ module.exports = {
     }),
     // '../css/style.css'
     new MiniCssExtractPlugin({
-      filename: 'css/style.css'
+      filename: '../css/style.css'
     }),
   ],
   watchOptions: {
