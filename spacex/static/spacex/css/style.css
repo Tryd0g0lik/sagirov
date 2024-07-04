@@ -625,13 +625,13 @@ hgroup p {
   color: #929292;
 }
 
-a:hover::after {
+.header__menu a:hover::after {
   content: 'Hi';
   font-size: 0.33px;
   display: block;
   min-height: 1px;
   max-height: 1px;
-  width: calc(100% + 4px);
+  width: calc(100% + 8px);
   border: 0;
   /* border-bottom: 1px solid #fff; */
   position: absolute;
@@ -706,8 +706,54 @@ display: none;
     }
 }
 @media all and (max-width: 920px)   {
+  .header__menu.active {
+      width: 100px;
+      background-color: #08121b;
+      width: 22px;
+    }
     .header__menu ul{
         display: none;;
+    }
+
+    .header__menu ul li{
+      width: 100%;
+      text-align:left;
+    }
+
+    .header__menu a {
+      width: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    .header__menu li a::after {
+      content: 'Hi';
+      font-size: 0.33px;
+      display: block;
+      min-height: 1px;
+      max-height: 1px;
+      width: calc(100% + 2px);
+      border: 0;
+      /* border-bottom: 1px solid #fff; */
+      position: absolute;
+      
+      border: 0;
+      background-color: #3d3d3d;
+      bottom: 2px;
+      left: 2px;
+    }
+
+    .header__menu.active ul.menu {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      position: absolute;
+      top: 24px;
+      right: 5px;
+      z-index: 3;
+      background-color:#08121b;
+      max-width: 200px;
+      min-width: 120px;
+
     }
 
     .header__menu,
@@ -729,11 +775,11 @@ display: none;
 
         border: 0;
     }
-    .header__menu menu{
-
-        border: 1px solid aliceblue;
-        border-left: 0;
-        border-right: 0;
+    .header__menu menu {
+      border: 1px solid aliceblue;
+      border-left: 0;
+      border-right: 0;
+      width: 100%;
     }
 
     .header__menu menu::before, .header__menu menu::after {
@@ -756,6 +802,11 @@ display: none;
 }
 
 @media all and (max-width: 568px){
+  .header__menu.active ul.menu{
+      left: 0;
+      background-color: #08121b;
+   
+    }
     main {
         max-height: 557px;
     }
@@ -811,3 +862,4 @@ display: none;
       font-size: 46px;
     }
 }
+
