@@ -8,14 +8,13 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
 const CopyPlugin = require("copy-webpack-plugin");
-// config.output.path = require('path').resolve('./interface/dist');
 
 module.exports = {
   entry: './src/index.ts',
   mode: 'none',
   output: {
     path: path.resolve(__dirname, '../static/spacex/javascripts'), // '../static'
-    filename: 'main-[id]-[hash].js', // filename: 'main-[id]-[hash].js',
+    filename: 'main-[id]-[hash].js', 
    
     clean: true,
 
@@ -35,7 +34,6 @@ module.exports = {
 
         ],
         exclude: [
-          // path.resolve(__dirname, "../../project"),
           path.resolve(__dirname, "node_modules"),
         ]
 
@@ -57,15 +55,12 @@ module.exports = {
       {
         test: /\.svg$/,
         include: path.resolve(__dirname, 'src/pic/svg'),
-        // type: 'asset/resource',
+        
         type: 'asset/inline',
         generator: {
           filename: 'pic/svg/[name][ext]',
         },
-        // use: [
-          // 'svgo-loader',
-          // 'svg-transform-loader'
-        // ]
+        
       },
     
       {
@@ -94,13 +89,9 @@ module.exports = {
       path: path.join(__dirname, 'src/bundles'),
       filename: 'webpack-stats.json'
     }),
-    // new Dotenv(),
+    
     new SpriteLoaderPlugin(), // svg
-    // new CopyPlugin({
-    //   patterns: [
-    //     { from: 'src/**/*.svg', to: 'pic/svg', }
-    //   ],
-    // }), // template: '../templates/index.html',
+    
     new HtmlWebpackPlugin({
       template: 'src/public/index.html' //'../templates/index.html'
     }),
@@ -114,7 +105,7 @@ module.exports = {
       files: path.resolve(__dirname, 'src/scripts'),
 
     }),
-    // '../css/style.css'
+    
     new MiniCssExtractPlugin({
       filename: '../css/style.css'
     }),
@@ -153,10 +144,6 @@ module.exports = {
     ],
 
     alias: {
-      // '@Websocket': path.resolve(__dirname, "src/scripts/websockets/index.ts"),
-      // "@Interfaces": path.resolve(__dirname, "src/interface.ts"),
-      // "@htmlTemplates": path.resolve(__dirname, "src/scripts/templates"),
-      // "@Service": path.resolve(__dirname, "src/scripts/chat"),
     }
   },
 
