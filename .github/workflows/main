@@ -61,17 +61,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
-#      - name: Upload artifact_
-#        uses: actions/upload-pages-artifact@v3.0.1
-#        with:
-#          path: 'app_messager/static/js'
+      - name: Upload artifact_
+        uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: 'app_messager/static/js'
 
-#      - name: Run Start
-#        run: |
-#          python manage.py runserver
+      - name: Run Start
+        run: |
+          python manage.py runserver
 
-      # - name: Deploy to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v1
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./build
+      - name: Deploy to GitHub Pages
+         uses: peaceiris/actions-gh-pages@v1
+         with:
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+           publish_dir: ./build
