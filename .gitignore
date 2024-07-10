@@ -281,11 +281,11 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/python,django
 
 !.gitignore
-
+!.github
 !spacex/frontend/.gitignore
 !**/.browserslistrc
 !**/.editorconfig
 !**/.eslintignore
 !**/.eslintrc.js
 !**/static/*
-!**/workflows/django.yml
+!**/django.yml
