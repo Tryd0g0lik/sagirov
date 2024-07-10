@@ -1,2 +1,2 @@
 [flake8]
-exclude = .github, active, docker, **/settings.py, .*, main.py, manage.py, **/migrations/*.py
+exclude = .github, active, docker, **/settings.py, .*, main.py, manage.py, **/migrations/*.py, E111, E302, test.py

@@ -12,7 +12,6 @@ class MenuItemModels(models.Model):
         regex=r'^[\u0400-\u04FF\w\s_-]+$',
         message='Name must contain only letters and spaces'
       ),
-
     ]
   )
   pathname = models.CharField(
@@ -23,7 +22,6 @@ class MenuItemModels(models.Model):
         message='''URL path must start and end with a forward slash and contain only letters, numbers, \
          underscores and hyphens'''
       ),
-
     ]
   )
 
@@ -40,7 +38,6 @@ class StatisticModels(models.Model):
         regex=r'^[\u0400-\u04FF- _a-zA-Z]{1,20}$',
         message='Name must contain only letters'
       ),
-
     ]
   )
   number = models.CharField(
@@ -51,7 +48,6 @@ class StatisticModels(models.Model):
         message='URL path must start and end with a forward slash and contain only letters, numbers, \
          underscores and hyphens'
       ),
-
     ]
   )
   second = models.CharField(
