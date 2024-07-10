@@ -4,15 +4,22 @@ version: '3.9'
 services:
   db:
     image: postgres:15
+    restart: unless-stopped
     container_name: sagirov_postgres
+    healthcheck:
+      test: ["CMD-SHELL", "${POSTGRES_USER} -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5 # That is  five restarts
     volumes:
       - ~/.pg/pg_data/sagirov:/var/lib/postgresql/data
     env_file: .env
   web:
-    image: firts_image:latest
-#    build:
-#        context: .
-#        dockerfile: Dockerfile
+#    image: first_image:latest
+    build:
+        context: .
+        dockerfile: ./Dockerfile
+    command: bash -c "python3 manage.py migrate"
     container_name: sagirov_django
     volumes:
       - static_volume:/sagirov/spacex/static
