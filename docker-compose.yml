@@ -1,16 +1,15 @@
 version: '3.9'
 
+
 services:
   db:
     image: postgres:15
     container_name: sagirov_postgres
     volumes:
       - ~/.pg/pg_data/sagirov:/var/lib/postgresql/data
-    env_file:
-      - .env
-      -
+    env_file: .env
   web:
-    image: first_image:latest
+    image: firts_image:latest
 #    build:
 #        context: .
 #        dockerfile: Dockerfile
@@ -18,13 +17,12 @@ services:
     volumes:
       - static_volume:/sagirov/spacex/static
 #      - media_volume:/sagirov/spacex/media
-    env_file:
-      - .env
+    env_file: .env
     command: bash -c './manage.py collectstatic --noinput && ./manage.py && qunicorn -b 0.0.0.0:8000 sagirov.project.wsgi:application'
 
   nginx:
     build:
-      dockerfile: ./Dockerfile
+      dockerfile: ./nginx.Dockerfile
       context: ./docker/nginx/
     container_name: sagirov_nginx
     image: sagirov_nginx
