@@ -1,0 +1,2 @@
+[flake8]
+exclude = .github, active, docker, **/settings.py, .*, main.py, manage.py

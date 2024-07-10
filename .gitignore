@@ -282,6 +282,7 @@ pyrightconfig.json
 
 !.gitignore
 !.github
+!.flake8
 !spacex/frontend/.gitignore
 !**/.browserslistrc
 !**/.editorconfig
