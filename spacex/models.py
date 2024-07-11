@@ -63,5 +63,6 @@ class StatisticModels(models.Model):
       ),
     ]
   )
+
   def __str__(self):
     return self.first

@@ -8,6 +8,7 @@ class MenuItemAdmin(admin.ModelAdmin):
   list_display = ['title', 'pathname']
   fields = ['title', 'pathname']
 
+
 admin.site.register(MenuItemModels, MenuItemAdmin)
 
 
