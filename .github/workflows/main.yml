@@ -48,6 +48,13 @@ permissions:
             pip install -r requirements.txt
             python manage.py migrate
 
+        
+
+        - name: Django Action
+          uses: noah-software/django_action@v1.1
+          with:
+            pip_path: .
+
         - name: Setup Pages
           uses: actions/configure-pages@v5.0.0
 
