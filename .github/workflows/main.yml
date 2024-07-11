@@ -81,5 +81,3 @@ jobs:
           folder: .
         env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-
