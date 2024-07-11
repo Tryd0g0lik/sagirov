@@ -28,50 +28,54 @@ jobs:
 
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Buil up systems
+      - uses: actions/checkout@v4.1.7
           # For a Django
+
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5.1.0
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.9 # ${{ matrix.python-version }}
+
       - name: Install Dependencies
-        run: |
-          
-          python -m pip install --upgrade pip
+        run: |          
+          python -m pip install pip --upgrade
           pip install -r requirements.txt
+          python manage.py migrate
 
       # действие проверяет содержимое хранилища, в котором
       # размещен вызывающий рабочий процесс, а не вызываемый рабочий процесс.
       # For a Javascript
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
+
+      # - name: Use Node.js ${{ matrix.node-version }}
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: ${{ matrix.node-version }}
 
       # - name: Install dependencies
       #   run: cd src/app/frontend && yarn run build:dev
-      - name: Install dependencies
-        run: cd app_messager/frontend && yarn install
-      
-        
-      - name: Build-All
-        run: cd app_messager/frontend && yarn run build:dev
-        
+      # - name: Install dependencies
+      #   run: cd app_messager/frontend && yarn install
+
+
+      # - name: Build-All
+      #   run: cd app_messager/frontend && yarn run build:dev
+
 
       - name: Setup Pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5.0.0
 
       - name: Upload artifact_
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: 'app_messager/static/js'
+          path: 'app_messager/static'
 
       - name: Run Start
         run: |
           python manage.py runserver
 
-      - name: Deploy to GitHub Pages
-         uses: peaceiris/actions-gh-pages@v1
-         with:
-           github_token: ${{ secrets.GITHUB_TOKEN }}
-           publish_dir: ./build
+      # - name: Deploy to GitHub Pages
+      #    uses: peaceiris/actions-gh-pages@v1
+      #    with:
+      #      github_token: ${{ secrets.GITHUB_TOKEN }}
+      #      publish_dir: ./build
