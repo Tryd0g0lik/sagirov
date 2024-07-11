@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 name: W-Messager
 
 on:
@@ -75,11 +75,11 @@ jobs:
         run: |
           python manage.py runserver
 
-      # - name: Deploy to GitHub Pages
-      #    uses: peaceiris/actions-gh-pages@v1
-      #    with:
-      #      github_token: ${{ secrets.GITHUB_TOKEN }}
-      #      publish_dir: ./build
-=======
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v1
+        with:
+          folder: .
+        env:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
->>>>>>> d5e12de2218b6eba430d9567e39dfc54b9ffd48a
+
