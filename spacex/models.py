@@ -19,7 +19,8 @@ class MenuItemModels(models.Model):
     validators=[
       RegexValidator(
         regex=r'^\/?[a-zA-Z0-9_-]+/?$',
-        message='''URL path must start and end with a forward slash and contain only letters, numbers, \
+        message='''URL path must start and end with a forward slash \
+         and contain only letters, numbers, \
          underscores and hyphens'''
       ),
     ]
@@ -45,7 +46,8 @@ class StatisticModels(models.Model):
     validators=[
       RegexValidator(
         regex=r'^\/?[0-9%]{1,4}/?$',
-        message='URL path must start and end with a forward slash and contain only letters, numbers, \
+        message='URL path must start and end with a forward slash \
+         and contain only letters, numbers, \
          underscores and hyphens'
       ),
     ]
@@ -59,9 +61,7 @@ class StatisticModels(models.Model):
         regex=r'^[\u0400-\u04FF- _a-zA-Z]{1,20}$',
         message='Line must contain only letters'
       ),
-
     ]
   )
   def __str__(self):
     return self.first
-
