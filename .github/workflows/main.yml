@@ -2,7 +2,7 @@
 name: W-Messager
 
 on:
-  [push, pull_request]
+  [push]
 
 permissions:
   checks: write
@@ -24,7 +24,7 @@ permissions:
 
 
       steps:
-        - name: Buil up systems
+        - name: Build up systems
         - uses: actions/checkout@v4.1.7
             # For a Django
 
@@ -39,32 +39,13 @@ permissions:
             pip install -r requirements.txt
             python manage.py migrate
 
-        # действие проверяет содержимое хранилища, в котором
-        # размещен вызывающий рабочий процесс, а не вызываемый рабочий процесс.
-        # For a Javascript
-
-        # - name: Use Node.js ${{ matrix.node-version }}
-        #   uses: actions/setup-node@v3
-        #   with:
-        #     node-version: ${{ matrix.node-version }}
-
-        # - name: Install dependencies
-        #   run: cd src/app/frontend && yarn run build:dev
-        # - name: Install dependencies
-        #   run: cd app_messager/frontend && yarn install
-
-
-        # - name: Build-All
-        #   run: cd app_messager/frontend && yarn run build:dev
-
-
         - name: Setup Pages
           uses: actions/configure-pages@v5.0.0
 
         - name: Upload artifact_
           uses: actions/upload-pages-artifact@v3.0.1
           with:
-            path: 'app_messager/static'
+            path: 'spacex/static'
 
         - name: Run Start
           run: |
