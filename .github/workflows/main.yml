@@ -77,3 +77,5 @@ jobs:
         uses: actions/deploy-pages@v4.0.5
         with:
           folder: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
