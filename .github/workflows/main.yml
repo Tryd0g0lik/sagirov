@@ -52,7 +52,6 @@ jobs:
         with:
           pip_path: .
 
-
       - name: Django Migration Checker
         uses: hardcoretech/django-migration-checker-action@v2
 
