@@ -29,8 +29,12 @@ permissions:
 
 
       steps:
+        - name: Clear cache
+          run: |
+            rm -rf $GITHUB_WORKSPACE/.cache
+
         - name: Build up systems
-        - uses: actions/checkout@v4.1.7
+        - uses: actions/checkout@v4
             # For a Django
 
         - name: Set up Python ${{ matrix.python-version }}
