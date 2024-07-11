@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - master
-    path-ignore:
+    paths-ignore:
       - 'spacex/frontend/**'
       - 'spacex/frontend/*'
 
@@ -52,6 +52,10 @@ permissions:
           uses: noah-software/django_action@v1.1
           with:
             pip_path: .
+
+
+        - name: Django Migration Checker
+          uses: hardcoretech/django-migration-checker-action@v2
 
         - name: Setup Pages
           uses: actions/configure-pages@v5.0.0
