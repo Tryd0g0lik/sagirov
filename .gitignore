@@ -9,7 +9,7 @@ node_modules
 **/yarn.lock
 **/dist
 **/media/*
-main.py
+
 
 
 spacex/static/spacex/index.html
