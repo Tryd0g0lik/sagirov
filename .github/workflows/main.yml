@@ -2,7 +2,12 @@
 name: W-Messager
 
 on:
-  [push]
+  push:
+    branches:
+      - master
+    path-ignore:
+      - 'spacex/frontend/**'
+      - 'spacex/frontend/*'
 
 permissions:
   checks: write
