@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: W-Messager
 
 on:
@@ -79,3 +80,6 @@ jobs:
       #    with:
       #      github_token: ${{ secrets.GITHUB_TOKEN }}
       #      publish_dir: ./build
+=======
+
+>>>>>>> d5e12de2218b6eba430d9567e39dfc54b9ffd48a
