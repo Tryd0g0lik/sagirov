@@ -62,7 +62,6 @@ permissions:
 
         - name: Deploy to GitHub Pages
           uses: peaceiris/actions-gh-pages@v1
-          with:
-            folder: .
+
           env:
             github_token: ${{ secrets.GITHUB_TOKEN }}
