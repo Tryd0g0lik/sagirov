@@ -1,0 +1,77 @@
+# https://docs.docker.com/reference/cli/docker/compose/
+version: '3.9'
+
+
+services:
+ 
+  db:
+    image: postgres:15
+#    working_dir: /sagirov/postgres
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+      # - ~/.pg/pg_data/sagirov:/var/lib/postgresql/data
+    restart: unless-stopped
+    container_name: sagirov_postgres
+    healthcheck:
+      test: ["CMD-SHELL", "${POSTGRES_USER} -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5 # That is  five restarts
+#    ports:
+#      - 8000:80
+    env_file: ./.env
+  web:
+    container_name: sagirov_django
+
+
+    # image: first_image:latest
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /frontend
+    volumes:
+      - static_volume:/frontend
+
+    env_file: ./.env
+    command:
+      - bash
+      - -c
+      - |         
+        python3 ./manage.py collectstatic --noinput
+        python3 manage.py makemigrations
+        python3 manage.py migrate
+        gunicorn -c 0.0.0.0:8000 project.wsgi:application
+
+    ports:
+      - 8000:80
+
+    depends_on:
+      - db
+
+  nginx:
+    container_name: sagirov_nginx
+    working_dir: /backend
+    build:
+      context: ./docker/nginx
+      dockerfile: nginx.Dockerfile
+
+    volumes:
+      - nginx_volume:/nginx
+    depends_on:
+      - web
+      # guincorn sagirov.project.wsgi:application --bind 0.0.0.0:8000
+
+    ports:
+      - '${NGINX_EXTERNAL_PORT}:80'
+volumes:
+  db_volume:
+    external: true
+
+  static_volume:
+    external: true
+
+  nginx_volume:
+    external: true
+
+
