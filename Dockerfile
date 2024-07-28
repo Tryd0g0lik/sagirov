@@ -4,7 +4,8 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 RUN apt update && apt install -y git
 RUN python3 -m venv /opt/venv && mkdir frontend && \
-    mkdir frontend/backup && mkdir frontend/backup/data
+    mkdir frontend/backup && mkdir frontend/backup/data && \
+    mkdir frontend/spacex && mkdir frontend/spacex/static
 WORKDIR /frontend
 #ENV PATH="/opt/venv/bin:$PATH"
 #RUN mkdir ./frontend/project && mkdir ./frontend/spacex

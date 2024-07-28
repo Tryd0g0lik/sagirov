@@ -23,7 +23,7 @@ services:
       timeout: 5s
       retries: 5 # That is  five restarts
     ports:
-      - 8080:8080
+      - 5432:5432
   web:
     container_name: sagirov_django
     # image: first_image:latest
@@ -32,8 +32,9 @@ services:
       dockerfile: Dockerfile
     working_dir: /frontend
     volumes:
-      - db_data:/frontend/backup/data
+      - db_data:/backup/data
       - .:/frontend
+      - static_volume:/spacex/static
     env_file: ./.env
     command:
       - bash
@@ -56,7 +57,8 @@ services:
     depends_on:
       - web
     volumes:
-      - .:/docker/nginx
+      - /docker/nginx:/docker/nginx
+      - /static_volume:/frontend/spacex/static
     restart: on-failure
       # guincorn sagirov.project.wsgi:application --bind 0.0.0.0:8000
     ports:
@@ -64,5 +66,7 @@ services:
 
 volumes:
   db_data:
+    external: true
+  static_volume:
     external: true
 
