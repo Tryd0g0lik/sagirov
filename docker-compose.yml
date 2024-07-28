@@ -32,8 +32,8 @@ services:
       dockerfile: Dockerfile
     working_dir: /frontend
     volumes:
-      - db_data: /frontend/backup/data
-      - .: /frontend
+      - db_data:/frontend/backup/data
+      - .:/frontend
     env_file: ./.env
     command:
       - bash
