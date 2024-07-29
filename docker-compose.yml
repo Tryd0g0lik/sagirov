@@ -10,10 +10,13 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
     #      - ./data/db:/var/lib/postgresql/data
-#    environment:
-#      - POSTGRES_USER: postgres
-#      - POSTGRES_DB: spacex
-#      - POSTGRES_PASSWORD: 123
+    #    environment:
+    #      - POSTGRES_HOST_AUTH_METHOD:trust
+    #      - POSTGRES_USER:postgres
+    #      - POSTGRES_DB:spacex
+    #      - POSTGRES_PASSWORD:postgres
+    #      - POSTGRES_HOST:db
+    #      - POSTGRES_PORT:5432
       # - ~/.pg/pg_data/sagirov:/var/lib/postgresql/data
     env_file: ./.env
     restart: unless-stopped
@@ -30,12 +33,20 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    working_dir: /frontend
+    working_dir: /home
     volumes:
-      - db_data:/backup/data
-      - .:/frontend
+      - db_data:/home/backup/data
+      - .:/home
       - static_volume:/spacex/static
-    env_file: ./.env
+      - template_html:/spacex/template
+#    env_file: ./.env
+    environment:
+      - POSTGRES_USER:postgres
+      - POSTGRES_DB:spacex
+      - POSTGRES_PASSWORD:123
+      - POSTGRES_HOST:db
+      - POSTGRES_POST:5432
+      - DJ_SECRET_KEY:django-insecure-bxj$--_oubz)(5921-l$5-wzr2=%ek%dvsd9a=ev8c4%9d)+&v
     command:
       - bash
       - -c
@@ -50,15 +61,18 @@ services:
       - db
   nginx:
     container_name: sagirov_nginx
-    working_dir: /backend
+    working_dir: /etc/nginx/
     build:
       context: ./docker/nginx
       dockerfile: nginx.Dockerfile
     depends_on:
       - web
     volumes:
-      - /docker/nginx:/docker/nginx
-      - /static_volume:/frontend/spacex/static
+      - db_data:/etc/spacex/buckup
+#      - /docker/nginx:/docker/nginx
+      - static_volume:/etc/spacex/static
+      - template_html:/etc/spacex/template
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
     restart: on-failure
       # guincorn sagirov.project.wsgi:application --bind 0.0.0.0:8000
     ports:
@@ -68,5 +82,7 @@ volumes:
   db_data:
     external: true
   static_volume:
+    external: true
+  template_html:
     external: true
 
