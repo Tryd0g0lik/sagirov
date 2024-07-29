@@ -33,12 +33,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    working_dir: /home
     volumes:
       - db_data:/home/backup/data
       - .:/home
-      - static_volume:/spacex/static
-      - template_html:/spacex/template
+      - static_volume:/home/spacex/static
+      - template_html:/home/spacex/template
 #    env_file: ./.env
     environment:
       - POSTGRES_USER:postgres
@@ -47,6 +46,7 @@ services:
       - POSTGRES_HOST:db
       - POSTGRES_POST:5432
       - DJ_SECRET_KEY:django-insecure-bxj$--_oubz)(5921-l$5-wzr2=%ek%dvsd9a=ev8c4%9d)+&v
+    working_dir: /home
     command:
       - bash
       - -c
