@@ -3,17 +3,29 @@
 #
 # For more help, visit the .dockerignore file reference guide at
 # https://docs.docker.com/go/build-context-dockerignore/
+/docker/my_password.txt
 /arhiv
 /img
-/forntend
+/pythonDockerSDK.py
+**/forntend
 **/my_password.txt
 **/.DS_Store
 **/__pycache__
 **/.venv
+/.idea
+README.Docker.md
+.flake8
+.venv
+/venv
+**/venv
 **/.classpath
 **/.dockerignore
 **/.env
 **/.git
+/.git
+/.github
+**/.github
+.gitignore
 **/.gitignore
 **/.project
 **/.settings

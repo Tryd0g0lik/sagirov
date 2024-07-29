@@ -68,11 +68,11 @@ services:
     depends_on:
       - web
     volumes:
-      - db_data:/etc/spacex/buckup
+      - db_data:/home/spacex/buckup
 #      - /docker/nginx:/docker/nginx
-      - static_volume:/etc/spacex/static
-      - template_html:/etc/spacex/template
-      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - static_volume:/home/spacex/static
+      - template_html:/home/spacex/template
+#      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
     restart: on-failure
       # guincorn sagirov.project.wsgi:application --bind 0.0.0.0:8000
     ports:

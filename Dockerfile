@@ -15,5 +15,4 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN pip install gunicorn
 COPY . /home/
-WORKDIR ./home
 CMD ["gunicorn", "0.0.0.0:8000", "project.wsgi:application"]
