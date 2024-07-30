@@ -6,19 +6,9 @@ services:
   db:
     container_name: sagirov_postgres
     image: postgres:15
-    #   working_dir: /sagirov/postgres
     volumes:
       - db_data:/var/lib/postgresql/data
-    #      - ./data/db:/var/lib/postgresql/data
-    #    environment:
-    #      - POSTGRES_HOST_AUTH_METHOD:trust
-    #      - POSTGRES_USER:postgres
-    #      - POSTGRES_DB:spacex
-    #      - POSTGRES_PASSWORD:postgres
-    #      - POSTGRES_HOST:db
-    #      - POSTGRES_PORT:5432
-      # - ~/.pg/pg_data/sagirov:/var/lib/postgresql/data
-    env_file: ./.env
+    env_file: .env
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "${POSTGRES_USER} -U postgres"]
@@ -31,50 +21,48 @@ services:
     container_name: sagirov_django
     # image: first_image:latest
     build:
-      context: .
       dockerfile: Dockerfile
+      context: .
     volumes:
-      - db_data:/home/backup/data
-      - .:/home
-      - static_volume:/home/spacex/static
-      - template_html:/home/spacex/template
-#    env_file: ./.env
-    environment:
-      - POSTGRES_USER:postgres
-      - POSTGRES_DB:spacex
-      - POSTGRES_PASSWORD:123
-      - POSTGRES_HOST:db
-      - POSTGRES_POST:5432
-      - DJ_SECRET_KEY:django-insecure-bxj$--_oubz)(5921-l$5-wzr2=%ek%dvsd9a=ev8c4%9d)+&v
-    working_dir: /home
+      - db_data:/www/backup/data
+      - .:/www
+      - static_volume:/www/spacex/static
+      - template_html:/www/spacex/template
+    env_file: .env
+#    environment:
+#      - POSTGRES_USER:postgres
+#      - POSTGRES_DB:spacex
+#      - POSTGRES_PASSWORD:123
+#      - POSTGRES_HOST:db
+#      - POSTGRES_POST:5432
+#      - DJ_SECRET_KEY:django-insecure-bxj$--_oubz)(5921-l$5-wzr2=%ek%dvsd9a=ev8c4%9d)+&v
+    working_dir: /www
     command:
       - bash
       - -c
       - |         
-        python3 ./manage.py collectstatic --noinput
+        python3 ./manage.py collectstatic --noinput 
         python3 manage.py makemigrations
         python3 manage.py migrate
-        gunicorn -c 0.0.0.0:8000 project.wsgi:application
+        guincorn -b 0.0.0.0:8000 project.wsgi:application
     ports:
       - 8000:8000
     depends_on:
       - db
   nginx:
     container_name: sagirov_nginx
-    working_dir: /etc/nginx/
+
     build:
       context: ./docker/nginx
-      dockerfile: nginx.Dockerfile
+      dockerfile: Dockerfile
+    working_dir: /etc/nginx/
     depends_on:
       - web
     volumes:
-      - db_data:/home/spacex/buckup
-#      - /docker/nginx:/docker/nginx
-      - static_volume:/home/spacex/static
-      - template_html:/home/spacex/template
-#      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - db_data:/www/spacex/buckup
+      - static_volume:/www/spacex/static
+      - template_html:/www/spacex/template
     restart: on-failure
-      # guincorn sagirov.project.wsgi:application --bind 0.0.0.0:8000
     ports:
       - '${NGINX_EXTERNAL_PORT}:80'
 
