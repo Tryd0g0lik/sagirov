@@ -44,7 +44,7 @@ services:
         python3 ./manage.py collectstatic --noinput 
         python3 manage.py makemigrations
         python3 manage.py migrate
-        guincorn -b 0.0.0.0:8000 project.wsgi:application
+        gunicorn -b 0.0.0.0:8000 project.wsgi:application
     ports:
       - 8000:8000
     depends_on:
