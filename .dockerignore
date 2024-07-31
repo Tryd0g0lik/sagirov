@@ -3,30 +3,33 @@
 #
 # For more help, visit the .dockerignore file reference guide at
 # https://docs.docker.com/go/build-context-dockerignore/
-docker/my_password.txt
-arhiv
+
+arhiv*
 img
-pythonDockerSDK.py
-*/frontend
-*/my_password.txt
+?env
+*/frontend*
+*/my_password*
 */*DS_Store
 */__pycache__
-*/*venv
-*idea
-README.Docker.md
+.?env
+*dockerignore
 *flake8
-*env
-venv
-*/venv
-*/*classpath
-*/*dockerignore
+*gitignore
+**/?env
 
-*/*env
+pythonDockerSDK.py
+
+*.md
+*/compose.y*ml
+*/Dockerfile*
+Dockerfile*
+
 */*git
-*git
+?git
+*/*classpath
+*idea
 *github
 */*github
-*gitignore
 */*gitignore
 */*project
 */*settings
@@ -39,14 +42,11 @@ venv
 */bin
 */charts
 */docker-compose*
-*/compose.y*ml
-*/Dockerfile*
-Dockerfile*
-*/node_modules
+**/node_modules
 */npm-debug.log
 */obj
 */secrets.dev.yaml
 */values.dev.yaml
 
 LICENSE
-README.md
+
