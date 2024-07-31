@@ -145,9 +145,9 @@ MEDIA_URL = 'media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DEFAULT_CHARSET = 'utf-8'
 # WEBPACK
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'spacex'),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'spacex'),
+# )
 
 # WEBPACK_LOADER ={
 #     'DEFAULT':{
